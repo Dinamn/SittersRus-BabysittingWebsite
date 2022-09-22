@@ -100,12 +100,9 @@ body{margin: 0px;
 	color:#515151 ;
 	text-align: center;
 }
-.footer.container{
-	position: absolute;
-
-}
 .footer.social-icon i{
 	padding: 20px 30px;
+	font-size: 50pt;
 }
 .bottom{
 	left: 80px;
