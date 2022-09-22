@@ -1,3 +1,4 @@
+/*Home page*/
 body{margin: 0px;
 	padding: 0%;
 	background-color: #BEDCDB;
@@ -88,6 +89,7 @@ body{margin: 0px;
 	top: 79%;
 }
 #pic2{
+	position: absolute;
 	left: 6px;
 	top: 182%;
 	width: 100%;
@@ -101,7 +103,6 @@ body{margin: 0px;
 }
 .footer.social-icon i{
 	padding: 20px 30px;
-	font-size: 50pt;
 }
 .bottom{
 	left: 80px;
@@ -115,3 +116,41 @@ body{margin: 0px;
 .copyright{
 	margin-top: 58px;
 	}
+
+/*Login page*/
+.loginform{
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	width: 400px;
+	border: 1px solid #EAB789;
+	border-radius: 35px;
+	background-color: #EAB789;
+	font-family: fantasy;
+	padding: 40px;
+	border-radius: 10px;
+	text-align: center;
+}
+.loginform h1{
+	color: #515151;
+	font-weight: 500;
+	margin-bottom: 10px;
+	font-family: fantasy;
+}
+.loginform input:nth-child(2),
+.loginform input:nth-child(3){
+	display: block;
+	width: 200px;
+	padding: 10px 20px;
+	margin: 20px auto;
+	outline: none;
+	border: 1px solid #515151;
+	border-radius: 25px;
+	background: #BEDCDB;
+	color: #515151;
+}
+.loginform input:nth-child(2):focus,
+.loginform input:nth-child(3):focus{
+	width: 250px;
+
+}
