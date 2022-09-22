@@ -121,28 +121,29 @@ body{margin: 0px;
 .loginform{
 	position: absolute;
 	top: 50%;
-	left: 35%;
-	width: 400px;
+	margin: auto;
+	left: 30%;
+	width: 500px;
+	height: 500px;
 	border: 1px solid #EAB789;
 	border-radius: 35px;
 	background-color: #EAB789;
 	font-family: fantasy;
-	padding: 40px;
-	border-radius: 10px;
+	padding: 50px;
 	text-align: center;
 }
 .loginform h1{
 	color: #515151;
-	font-weight: 500;
+	font-weight: bolder;
+	font-size: 50pt;
 	margin-bottom: 10px;
 	font-family: fantasy;
 }
-.loginform input:nth-child(2),
-.loginform input:nth-child(3){
+#inputStyle{
 	display: block;
 	width: 200px;
 	padding: 10px 20px;
-	margin: 20px auto;
+	margin: 25px auto;
 	outline: none;
 	border: 1px solid #515151;
 	border-radius: 25px;
