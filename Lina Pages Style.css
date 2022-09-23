@@ -141,17 +141,27 @@ body{margin: 0px;
 }
 #inputStyle{
 	display: block;
-	width: 200px;
+	width: 250px;
 	padding: 10px 20px;
-	margin: 25px auto;
+	margin-top: 45px;
+	margin-left: 98px;
+	margin-right: 98px;
 	outline: none;
-	border: 1px solid #515151;
+	border: 1px solid #FFEF70;
 	border-radius: 25px;
-	background: #BEDCDB;
+	background: #FFEF70;
 	color: #515151;
 }
-.loginform input:nth-child(2):focus,
-.loginform input:nth-child(3):focus{
-	width: 250px;
-
+#logbut{
+	border: 1px #BEDCDB solid;
+	border-radius: 35px;
+	background-color: #BEDCDB;
+	color: #515151;
+	font-family: fantasy;
+	margin-top: 20px;
+	margin-left: 90px;
+	margin-right: 90px;
+	padding: 10px 30px;
+	font-weight:bolder ;
+	font-size: 20pt;
 }
