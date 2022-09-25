@@ -133,7 +133,6 @@ body{margin: 0px;
 	text-align: center;
 }
 .loginform h1{
-	color: #515151;
 	font-weight: bolder;
 	font-size: 50pt;
 	margin-bottom: 10px;
@@ -164,4 +163,42 @@ body{margin: 0px;
 	padding: 10px 30px;
 	font-weight:bolder ;
 	font-size: 20pt;
+}
+/*Sign UP? page*/
+.SignUPform{
+	position: absolute;
+	top: 35%;
+	margin: auto;
+	left: 30%;
+	width: 500px;
+	height: 500px;
+	border: 1px solid #BEDCDB;
+	border-radius: 35px;
+	background-color: #BEDCDB;
+	font-family: fantasy;
+	padding: 50px;
+	text-align: center;
+}
+.SignUPform h1{
+	font-weight: bolder;
+	font-size: 70pt;
+	margin-bottom: 10px;
+	font-family: fantasy;
+}
+#buttonChoice{
+	display: block;
+	width: 400px;
+	height: 100px;
+	border: 1px #EAB789 solid;
+	border-radius: 25px;
+	background-color: #EAB789;
+	color: #515151;
+	font-family: fantasy;
+	margin-top: 45px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px 50px;
+	font-weight:bolder ;
+	font-size: 30pt;
+	outline: none;
 }
