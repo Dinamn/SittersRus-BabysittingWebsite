@@ -75,20 +75,18 @@ a{
 
 .List-2{
     
-    width: 300px;
+    width: 350px;
     position: relative;
-    right: 50%;
+    right: 45%;
     bottom: 20%;
 }
 
 
 .lable-b{
     font-family: fantasy;
-    display: flex;
-    justify-content: center;     
+  
     color: black;
     font-weight: bolder;
-    /*width: 600px;*/
     height: 0px;
     top: 100px;
     margin-top: 180px;
@@ -114,8 +112,8 @@ a{
     background-color: #e8b991;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 400px;
-    height: 150px;
+    width: 450px;
+    height: 160px;
     margin: 18px;
     border-radius: 15px ;
     position: relative;
@@ -124,12 +122,10 @@ a{
    }
    
 
-
 .perant-pic{
    height:70px ;
     width: 70px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+
     border-radius: 50%;
     padding: 2px;
 
@@ -150,7 +146,6 @@ h5{
     font-size: 15px;
     font-family:monospace ;
     text-align: center;
-    /*margin-bottom: 65px;*/
     margin-top: 10px;
     text-decoration:none ;
     outline: none;
@@ -170,14 +165,18 @@ h5{
 }
 
 
+.perant-data{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
 
+}
 .perant-data li{
-
 list-style-type: none;
 display: inline-block;
 padding: 10px;
-position: relative;
-bottom: 10px;
 }
 
 
@@ -188,21 +187,41 @@ bottom: 10px;
     width: 100px;
 }
 
-h6{
+
+
+.card2{
+    background-color: #e8b991;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 450px;
+    height: 110px;
+    margin: 18px;
+    border-radius: 15px ;
+    position: relative;
+    right: 18px;
+    
+   }
+
+.Status{
+    position: relative;
+    right: 70px;
+}
+#name{
+    position: relative;
+    right:55px;
+}
+
+#Status-1{
     font-size: 30px;
     color: rgb(128, 19, 0);
-    margin-left: 130px;
-    position: relative;
-    bottom: 235px;
-    left: 165px;
+
 }
-h7{
+
+#Status-2{
 
     font-size: 30px;
     color: rgb(2, 77, 2);  
-    position: relative;
-    bottom: 180px;
-    left: 295px;
+
 }
 
 
