@@ -77,14 +77,13 @@ a{
     
     width: 350px;
     position: relative;
-    right: 45%;
+    right: 80.5%;
     bottom: 20%;
 }
 
 
 .lable-b{
     font-family: fantasy;
-  
     color: black;
     font-weight: bolder;
     height: 0px;
@@ -103,7 +102,6 @@ a{
     height: 300px;
     margin-top: 60px;
     margin-left:-70%;
-
    overflow: scroll;
     overflow-x: hidden;
    }
@@ -122,50 +120,63 @@ a{
    }
    
 
-.perant-pic{
+
+.Sitter-pic{
    height:70px ;
     width: 70px;
-
+    position: relative;
+    right: 8px;
     border-radius: 50%;
-    padding: 2px;
-
-    
+    padding: 10px;
 }
+
 h5{
     text-decoration: underline;
     font-weight: bolder;
-    
 }
 
-.button{
-    background-color:#abc7c6 ;
-    outline: none;
-    padding: 5px 7px;
-    display: inline-block;
-    cursor:pointer;
-    font-size: 15px;
-    font-family:monospace ;
-    text-align: center;
-    margin-top: 10px;
-    text-decoration:none ;
-    outline: none;
-    color:#fff;
-    border: none;
-    border-radius: 15px;
-    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+#Sitter-info{
     position: relative;
-    right: 10px;
-
+    right: 32px;
 }
+.btn-1 {
+    background-color: #abc7c6; 
+    height: 45px;
+    width: 45px;
+    border: none;
+    color: white; 
+    padding: 10px 10px; 
+    font-size: 30px; 
+    cursor: pointer; 
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .btn-1:hover {
+    color: rgb(2, 77, 2); 
+    background-color:#FFEF70
+  }
 
-.button:hover,
-.button:active
-{
-    color: #FFEF70;
-}
 
+  .btn-2 {
+    background-color: #abc7c6; 
+    height: 45px;
+    width: 45px;
+    border: none; 
+    color: white; 
+    padding: 10px 10px; 
+    font-size: 30px; 
+    cursor: pointer; 
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .btn-2:hover {
+    color: rgb(128, 19, 0);
+    background-color: #FFEF70;
+  }
 
-.perant-data{
+  .Sitter-data{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -173,56 +184,13 @@ h5{
 	transition: 0.3s;
 
 }
-.perant-data li{
+
+.Sitter-data li{
 list-style-type: none;
 display: inline-block;
 padding: 10px;
 }
 
-
-
-.text{
-    border-color: black;
-    border-radius: 5px;
-    width: 100px;
-}
-
-
-
-.card2{
-    background-color: #e8b991;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 450px;
-    height: 110px;
-    margin: 18px;
-    border-radius: 15px ;
-    position: relative;
-    right: 18px;
-    
-   }
-
-.Status{
-    position: relative;
-    right: 70px;
-}
-#name{
-    position: relative;
-    right:55px;
-}
-
-#Status-1{
-    font-size: 30px;
-    color: rgb(128, 19, 0);
-
-}
-
-#Status-2{
-
-    font-size: 30px;
-    color: rgb(2, 77, 2);  
-
-}
 
 
 #pic2{
