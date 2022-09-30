@@ -81,7 +81,7 @@
     font-size: 20px;
 
 }
-.job-list{overflow: scroll;}
+
 
 
 
@@ -135,17 +135,9 @@
     right: 90px;
    }
 
-   #card-fback{
-    background-color: #e8b991;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 4 rgba(0,0,0,0.4);
-    width:550px;
-    height:250px;
-    border-radius: 15px ;
-    margin: 18px;
-    position: relative;
-    right: 90px;
-   }
+.checked {
+  color: #BEDCDB;
+}
 
 
      .Sitter-data{
