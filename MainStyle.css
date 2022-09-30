@@ -1,22 +1,15 @@
+/*Header and footer style*/
 * {
-
  margin:  0;
  padding:  0;
-
 }
 
-
-
 body {
-
-   /* Leena's */
-
     min-height:  100vh ;
-    background-image: url('Images/wall.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    font-family: fantasy;
+	background-image: url('Images/wall.png'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: fantasy;
 }
 
 #logo{
@@ -38,78 +31,60 @@ body {
     color: #515151;
     }
 
-
 .line{
     color: #515151;
-    text-decoration:none;
-    text-align:center;   
+	text-decoration:none;
+	text-align:center;    
 }
+
 .line:hover {
-    color:#FFEF70;
+    color:#EAB789;
 }
 
-
-
-#footer {
-        
-        background-color: #EAE8E3;
-        color:#515151 ;
-        position : sticky;
-        height: 150px;
-        text-align: center;
-        margin-top: 100%;
-
-
-    }
-    
-     
-    
-    
-
-    .social-icon{
-
-   padding: 20px 30px;
-    
-
+#footer {  
+    background-color: #EAE8E3;
+    color:#515151 ;
+    position : sticky;
+    height: 150px;
+    text-align: center;
+    margin-top: 100%;
 }
-    .bottom{
-        left: 80px;
-        position: relative;
-        float: left;
-        padding-right: 155px;
-        padding-left: 155px;
-        font-family: fantasy;
-        color: #515151;
-        margin-top: 25px;
-        
-    }
-    .copyright{
+
+.social-icon{
+    padding: 20px 30px;
+}
+
+.bottom{
+    left: 80px;
+	position: relative;
+	float: left;
+	padding-right: 155px;
+	padding-left: 155px;
+	font-family: fantasy;
+	color: #515151;
+	margin-top: 25px;   
+}
+
+.copyright{
       
-position: relative;
-align-items: center;
-text-align: center;
-letter-spacing: 0.13em;
-margin-left: 400px;
-margin-top: 30px;
-color: #515151;
-
-
-
-        }
+    position: relative;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.13em;
+    margin-left: 400px;
+    margin-top: 30px;
+    color: #515151;
+}
 
 /* Ahad's */
-
-
 a{
     text-decoration: none;
     color: #515151;
-  }
+}
 
 .top:not(:first-of-type):hover,#active:hover{
-
-    color:#EAB789;
-    
-  }
+    color:#EAB789; 
+}
 
 .subList{
     display: none;
@@ -127,17 +102,11 @@ a{
     font-size: 20px;
     border-bottom: 1px solid #BEDCDB;
 }
+
 .subList li a:hover { color:#EAB789;}
 
 .top:hover .subList{ display: block;}
-.line{
-    color: #515151;
-    text-decoration:none;
-    text-align:center;   
-}
-.line:hover {
-    color:#EAB789;
-}
+
 
 
 
