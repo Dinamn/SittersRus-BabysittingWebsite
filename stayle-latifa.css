@@ -7,17 +7,21 @@
     background-color: #abc7c6;
     border-radius: 5px;
     padding: 0px;
+
+
 }
 
 .subList li{
     padding: 4px 10px;
     font-size: 20px;
     border-bottom: 1px solid #BEDCDB;
+
 }
 .subList li a:hover { color:#FFEF70;}
 
 .top:hover .subList{ 
-    display: block;}
+    display: block;
+}
 
 
 .line{
@@ -56,7 +60,7 @@
     /*width: 600px;*/
     height: 0px;
     top: 100px;
-    margin-top: 180px;
+    margin-top: 260px;
     margin-left: -35%;
     text-align: center;
     padding: 15px 20px;
@@ -85,7 +89,7 @@
     height:250px;
     border-radius: 15px ;
     position: relative;
-    right: 30px;
+    right: -10px;
     border:3px
 
    }
@@ -117,7 +121,7 @@
 
 .button{
    display: inline;
-  border: 1px solid #e8b991;
+  border: 1px solid #BEDCDB;
     border-radius: 35px;
     background-color: #BEDCDB;
     color: #515151;
