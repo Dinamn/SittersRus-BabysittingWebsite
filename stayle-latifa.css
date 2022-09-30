@@ -25,17 +25,10 @@ body{margin: 0px;
     
     }
 
-
-
-a{
-    text-decoration: none;
-    color: black;
-  }
-
 .top:not(:first-of-type):hover,#active:hover{
 
     color:#FFEF70;
-    
+ 
   }
 
 .subList{
@@ -57,6 +50,7 @@ a{
 
 .top:hover .subList{ 
     display: block;}
+
 
 .line{
     color: #515151;
@@ -119,11 +113,11 @@ a{
     background-color: #e8b991;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 4 rgba(0,0,0,0.4);
-    width:500px;
+    width:550px;
     height:250px;
     border-radius: 15px ;
     position: relative;
-    right: 250px;
+    right: 30px;
     border:3px
 
    }
@@ -141,34 +135,6 @@ a{
 }
 
 
-
-.account-settings .user-profile {
-    margin: 0 0 1rem 0;
-    padding-bottom: 1rem;
-    text-align: center;
-}
-.account-settings .user-profile .user-avatar {
-    margin: 0 0 1rem 0;
-}
-.account-settings .user-profile .user-avatar img {
-    width: 90px;
-    height: 90px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-}
-.account-settings .user-profile h5.user-name {
-    margin: 0 0 0.5rem 0;
-}
-.account-settings .user-profile h6.user-email {
-    margin: 0;
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: #9fa8b9;
-}
-
-
-
 .perant-pic{
    height:70px ;
     width: 70px;
@@ -181,6 +147,42 @@ a{
     
 }
 
+.button{
+   display: inline;
+  border: 1px solid #e8b991;
+    border-radius: 35px;
+    background-color: #BEDCDB;
+    color: #515151;
+    font-family: fantasy;
+    margin-top: 50px;
+     margin-left: -90px;
+    margin-right: 100px;
+    padding: 10px 30px;
+    font-weight:bolder ;
+    font-size: -30pt;
+
+}
+
+.button:hover,
+.button:active
+{
+    color: #FFEF70;
+}
+
+.input{
+    display: block;
+    width: 180px;
+    padding: 10px 20px;
+    margin-top: -20px;
+    margin-left: 98px;
+    margin-right: 98px;
+    outline: none;
+    border: 1px solid #FFEF70;
+    border-radius: 25px;
+    background: #FFEF70;
+    color: #515151;}
+
+
 
 .perant-data li{
 
@@ -190,17 +192,18 @@ display: inline;
 
 #perant-info{
     position: relative;
-    bottom: 120px;
+    bottom: 80px;
     left: 150px;
 
 }
 
 #Edit-info{
     position: relative;
-    bottom: -60px;
-    left:180px;
+    bottom: -70px;
+    left:100px;
 
 }
+
 
 .row:after {
   content: "";
@@ -213,6 +216,43 @@ display: inline;
   width: 33.33%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
 }
 
 
