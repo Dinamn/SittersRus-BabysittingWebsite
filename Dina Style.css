@@ -64,13 +64,12 @@ body{margin: 0px;
 
     /*footer*/
     #pic2{
-        position: absolute;
+        position: relative;
         left: 6px;
         top: 182%;
         width: 100%;
         padding-bottom: 2px;
     }
-
     .footer{
         padding-top: 1500px;
         padding-bottom: 50px;
@@ -95,9 +94,42 @@ body{margin: 0px;
 
 
         /*request details*/
-        .requestdetails{
-            position: relative;
-          
-            font-family: fantasy;
+
+       
+
+
+
+     
+
+        #title1{
+           
+           
+                font-family: fantasy;
+                color: black;
+                font-weight: bolder;
+                font-size: 20px;
+                text-align: center;
+                position: relative;
+                top: 330px;
+                left: -383px;
+                
+                
+        }
+
+        #parent-photo{
+
+            border: 5px solid #E2B98F;
+            padding: 5px;
+            width: 150px;
+            position: absolute;
+            float: left;
+            top: 500px;
+            left: 200px;
+           
+
+
 
         }
+
+
+
