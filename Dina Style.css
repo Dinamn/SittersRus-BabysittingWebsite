@@ -64,9 +64,9 @@ body{margin: 0px;
 
     /*footer*/
     #pic2{
-        position: relative;
+        position: absolute;
         left: 6px;
-        top: 182%;
+        top: 207%;
         width: 100%;
         padding-bottom: 2px;
     }
@@ -95,7 +95,15 @@ body{margin: 0px;
 
         /*request details*/
 
+       .requestdetails{
+
+        font-family: fantasy;
+        color: black;
+        
+        
        
+
+       }
 
 
 
@@ -103,12 +111,9 @@ body{margin: 0px;
 
         #title1{
            
-           
-                font-family: fantasy;
-                color: black;
-                font-weight: bolder;
                 font-size: 20px;
                 text-align: center;
+                font-weight: bolder;
                 position: relative;
                 top: 330px;
                 left: -383px;
@@ -128,6 +133,25 @@ body{margin: 0px;
            
 
 
+
+        }
+
+        h3{
+            position: relative;
+            top: 460px;
+            left: -383px;
+            font-size: 20px;
+            letter-spacing: 3px;
+            line-height: -2px;
+           
+            
+          
+        }
+
+        span{
+            
+            color:#db8126
+            
 
         }
 
