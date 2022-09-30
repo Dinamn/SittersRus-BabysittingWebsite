@@ -114,6 +114,7 @@ a{
 .subList{
     display: none;
     list-style: none;
+    width: 120px;
     position: absolute;
     top: 35px;
     background-color: #A5B2A1;
@@ -164,7 +165,7 @@ a{
 
 .button:hover
 {
-    color: ##ECB78B;
+    color: #ECB78B;
 }
 
 
