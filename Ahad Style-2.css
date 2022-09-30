@@ -1,31 +1,52 @@
+* {
 
-body{margin: 0px;
-	padding: 0%;
-	background-color: #BEDCDB;
-    
+    margin:  0;
+    padding:  0;
+   
+}
+
+body{
+    min-height:  100vh ;
+	background-image: url('Images/wall.png'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	font-family: fantasy;
 }
 
 #logo{
 	position: absolute;
-	width: 210px;
-	height: 180px;
-	margin-top: 5px;
-	margin-left: 70px;
+	width: 300px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 100px;
 }
 
 .top{
-	left: 460px;
+	left: 430px;
 	position: relative;
 	float: left;
-	margin-top: 50px;
-	padding-right: 60px;
-	padding-left: 60px;
-	font-family: fantasy;
+	margin-top: 70px;
+	padding-right: 50px;
+	padding-left: 50px;
 	color: #515151;
-    z-index: 4;
 }
 
-.line:hover , .top:hover{ color:#FFEF70; }
+.line{
+	color: #515151;
+	text-decoration:none;
+    text-align:center;   
+}
+.line:hover {
+    color:#EAB789;
+}
+
+
+.top:not(:first-of-type):hover,#active:hover{
+
+    color:#EAB789;
+    
+  }
 
 .subList{
     display: none;
@@ -33,7 +54,7 @@ body{margin: 0px;
     width: 120px;
     position: absolute;
     top: 35px;
-    background-color: #abc7c6;
+    background-color: #A5B2A1;
     border-radius: 5px;
     padding: 0px;
 }
@@ -43,14 +64,11 @@ body{margin: 0px;
     font-size: 20px;
     border-bottom: 1px solid #BEDCDB;
 }
+.subList li a:hover { color:#EAB789;}
 
 .top:hover .subList{ display: block;}
 
-.line{
-	color: #515151;
-	text-decoration:none;
-    text-align:center;   
-}
+
 
 
 .List-1{
@@ -61,75 +79,65 @@ body{margin: 0px;
 }
 
 .List-2{
-    
-    width: 350px;
+    height:  80vh;
+    width: 100vh;
     position: relative;
-    right: 80.5%;
-    bottom: 20%;
+    right: 428.5px;
+    top: 300px;
 }
 
 
-.lable-b{
-    font-family: fantasy;
+.lable-b {
     color: black;
     font-weight: bolder;
-    height: 0px;
-    top: 100px;
+    height: 80px;
     margin-top: 180px;
-    margin-left: -70%;
     text-align: center;
     padding: 15px 20px;
-    font-size: 20px;
-
+    font-size: 40px;
 }
+
 .container{
-    font-family: fantasy;
     display: flex ;
     justify-content: center;
-    height: 300px;
-    margin-top: 60px;
-    margin-left:-70%;
-   overflow: scroll;
+    height: 500px;
+    overflow: scroll;
     overflow-x: hidden;
    }
 
    .card{
-    background-color: #e8b991;
+    background-color: #ECB78B;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 450px;
-    height: 160px;
+    width: 700px;
+    height: 200px;
     margin: 18px;
     border-radius: 15px ;
-    position: relative;
-    right: 18px;
-    
+
    }
    
 
 
 .Sitter-pic{
-   height:70px ;
-    width: 70px;
-    position: relative;
-    right: 8px;
+    height:90px ;
+    width: 90px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 2px;   
 }
 
 
 #Sitter-info{
     position: relative;
-    right: 32px;
+    right: 23px;
 }
 .btn-1 {
-    background-color: #BEDCDB; 
-    height: 45px;
-    width: 45px;
+    background-color: #A5B2A1; 
+    height: 70px;
+    width: 70px;
     border: none;
-    color: white; 
+    color: #515151; 
     padding: 10px 10px; 
-    font-size: 30px; 
+    font-size: 50px; 
     cursor: pointer; 
     border-radius: 50%;
     margin: 5px;
@@ -141,13 +149,13 @@ body{margin: 0px;
 
 
   .btn-2 {
-    background-color: #BEDCDB; 
-    height: 45px;
-    width: 45px;
+    background-color: #A5B2A1; 
+    height: 70px;
+    width: 70px;
     border: none; 
-    color: white; 
+    color: #515151; 
     padding: 10px 10px; 
-    font-size: 30px; 
+    font-size: 50px; 
     cursor: pointer; 
     border-radius: 50%;
     margin: 5px;
@@ -158,82 +166,104 @@ body{margin: 0px;
   }
 
   .Sitter-data{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 1.5em;
 	transition: 0.3s;
+    line-height: 2;
 
 }
 
 .Sitter-data li{
 list-style-type: none;
 display: inline-block;
-padding: 10px;
+}
+
+#link{
+    color: #515151;
 }
 
 
 .card2{
-    background-color: #e8b991;
+    background-color: #ECB78B;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 450px;
-    height: 110px;
+    width: 700px;
+    height: 140px;
     margin: 18px;
     border-radius: 15px ;
-    position: relative;
-    right: 18px;
-   }
+}
 
 #name{
     position: relative;
     right:20px;
 }
 
-#rate{
+.rate{
     position: relative;
     right: 50px;
 
 }
 
-#review{
+.review{
     position: relative;
     right: 30px;
 }
 
-#pic2{
-	position: absolute;
-	left: 6px;
-	top: 79.5%;
-	width: 100%;
-	padding-bottom: 2px;
-}
 
-    .footer{
-        padding-top: 30px;
-        padding-bottom: 50px;
-        color:#515151 ;
-        text-align: center;
+#MainPagePic{
 
-    }
-    .footer.container{
-        position: absolute;
-        
+    position: relative;
+    display: grid;
+    width: 300px;
+    height: 600px;
+    left: 1030px;
+    bottom: 120px;
+    z-index: 10;
     
     }
-    .footer.social-icon i{
-        padding: 20px 30px;
-    }
-    .bottom{
-        left: 80px;
-        position: relative;
-        top: 60px;
-        float: left;
-        padding-right: 155px;
-        padding-left: 155px;
-        font-family: fantasy;
-        color: #515151;
-    }
-    .copyright{
-        margin-top: 118px;
-        }
+
+/*----Footer---*/
+#footer {
+        
+    background-color: #EAE8E3;
+    color:#515151 ;
+    position : sticky;
+    height: 150px;
+    text-align: center;
+    margin-top: 100%;
+
+
+}
+
+.social-icon{
+
+padding: 20px 30px;
+
+}
+
+.bottom{
+    left: 80px;
+    position: relative;
+    float: left;
+    padding-right: 155px;
+    padding-left: 155px;
+    font-family: fantasy;
+    color: #515151;
+    margin-top: 25px;
+    
+}
+.copyright{
+  
+position: relative;
+align-items: center;
+text-align: center;
+letter-spacing: 0.13em;
+margin-left: 400px;
+margin-top: 30px;
+color: #515151;
+}
