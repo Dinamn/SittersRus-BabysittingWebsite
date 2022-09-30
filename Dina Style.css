@@ -66,11 +66,10 @@ body{margin: 0px;
     #pic2{
         position: absolute;
         left: 6px;
-        top: 182%;
+        top: 207%;
         width: 100%;
         padding-bottom: 2px;
     }
-
     .footer{
         padding-top: 1500px;
         padding-bottom: 50px;
@@ -95,9 +94,66 @@ body{margin: 0px;
 
 
         /*request details*/
-        .requestdetails{
-            position: relative;
-          
-            font-family: fantasy;
+
+       .requestdetails{
+
+        font-family: fantasy;
+        color: black;
+        
+        
+       
+
+       }
+
+
+
+     
+
+        #title1{
+           
+                font-size: 20px;
+                text-align: center;
+                font-weight: bolder;
+                position: relative;
+                top: 330px;
+                left: -383px;
+                
+                
+        }
+
+        #parent-photo{
+
+            border: 5px solid #E2B98F;
+            padding: 5px;
+            width: 150px;
+            position: absolute;
+            float: left;
+            top: 500px;
+            left: 200px;
+           
+
+
 
         }
+
+        h3{
+            position: relative;
+            top: 460px;
+            left: -383px;
+            font-size: 20px;
+            letter-spacing: 3px;
+            line-height: -2px;
+           
+            
+          
+        }
+
+        span{
+            
+            color:#db8126
+            
+
+        }
+
+
+
