@@ -26,65 +26,92 @@
 
         <!--Page content-->
 
-        <form action="#" method="post">
-            <fieldset>
-                  <legend>Sign Up</legend>
-
-                  <form action="#" method="post">
-                    <fieldset>
-                        <legend>Personal Information</legend>
-    
-                            <label>ID Numder<br>
-                            <input type="text" name="ID Numder"> </label>
-                            <br>
-                            <br>
-                            <label>Phone Number<br>
-                            <input type="text" name="Phone Number"> </label>
-                            <br>
-                            <br>
-                            <label>Email<br>
-                            <input type="text" name="Email"> </label>
-                            <br>
-                            <br>
-                            <label>Age<br>
-                            <input type="text" name="Age"> </label>
-                            <br>
-                            <br>
-                            <label>Gender<br>
-                            <input type="text" name="Gender"> </label>
-                            <br>
-                            <br>
-                            <label>City<br>
-                            <input type="text" name="City"> </label>
-                            <br>
-                            <br>
-                      </fieldset>
-                  </form>
-
-                  <form action="#" method="post">
-                    <fieldset>
-                        <legend>Account Information</legend>
-
-                        <label>First Name<br>
-                        <input type="text" name="Fname"> </label>
-                        <br>
-                        <br>
-                        <label>Last Name<br>
-                        <input type="text" name="Lname"> </label>
-                        <br>
-                        <br>
-                        <label>Password<br>
-                        <input type="Password" name="Password"> </label>
-                        <br>
-                        <br>
-                    </fieldset>
-                  </form>
-                  <br>
-                  <br>
-                  <input type="submit" value="Sign up">
-            </fieldset>
-        </form>
+        <div class="container2">
+            <div class="title">Sign Up</div>
+            <form action="#" method="post">
+                <div class="user-details">
         
+                    <div class="profile-pic">
+                        <img src="Images/user (1).png" alt="user photo" id="userphoto">
+                        <input type="file" id="file">
+                        <label for="file" id="uploadBtn">Choose a photo</label>
+                    </div>
+        
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your first name" required>
+                    </div>
+        
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your last name" required>
+                    </div>
+        
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+        
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="Password" placeholder="Enter your password" required>
+                    </div>
+        
+                    <div class="input-box">
+                        <span class="details">ID</span>
+                        <input type="text" placeholder="Enter your ID number" required>
+                    </div>
+        
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your Phone number" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">age</span>
+                        <input type="text" placeholder="Enter your age" required>
+                    </div>
+        
+                    <div class="input-box">
+                        <span class="details">City</span>
+                        <input type="text" placeholder="Enter your city" required>
+                    </div>
+        
+                </div>
+
+                <div>
+                    <label>Gender    <input name="gender" type="radio" checked> Male     <input name="gender" type="radio"> Female <br>
+                        <br></label>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Bio</span>
+                    <textarea name="Bio" required 
+                        rows="4" cols="35">Enter your bio such as, years of experience, education, languages spoken, skills … etc </textarea>
+                </div>
+        
+                <div class="button">
+                    <input type="submit" value="Sign up">
+                </div>
+        
+            </form>
+        </div>
+       <!--<div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                                <input type="radio" name="gender" id="dot-2">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot one"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                </div>-->
+
+       
         <h3 id="writetext4">Contact us</h3><!--End of page content-->
 
 
@@ -97,7 +124,7 @@
 			<div class="social-icon">
 			<div class="bottom"><a href="#" class="line"><i class="fa fa-phone"></i> 92000003</a></div>
 			<div class="bottom"><a href="#" class="line"><i class="fa fa-envelope"></i> info@sittersRUS.com</a></div>
-			<div class="bottom"><a href="#" class="line"><i class="fa fa-instagram"></i> @sittersRUS</a></div>
+			<div class="bottom"><a href="https://instagram.com/sitters.r.us.sa?igshid=Y2ZmNzg0YzQ" class="line"><i class="fa fa-instagram"></i> @sitters.R.US</a></div>
 		    </div>
 			<center><div class="copyright">&copy;Copyright</div></center>
 

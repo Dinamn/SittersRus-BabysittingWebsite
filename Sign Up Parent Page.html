@@ -25,26 +25,57 @@
 		</div><!--End of header-->
 
         <!--Page content-->
-        <form class="loginform">
-            <fieldset>
-                  <legend>Sign Up</legend>
-                  
-                    <input type="text" placeholder="First Name" id="inputStyle">
 
-                    <input type="text" placeholder="Last Name" id="inputStyle">
+        <div class="container1">
+            <div class="title">Sign Up</div>
+            <form action="#" method="post">
+                <div class="user-details">
 
-                    <input type="text" placeholder="Email" id="inputStyle">
+                    <div class="profile-pic">
+                        <img src="Images/user (1).png" alt="user photo" id="userphoto">
+                        <input type="file" id="file">
+                        <label for="file" id="uploadBtn">Choose a photo</label>
+                    </div>
 
-                    <input type="Password" placeholder="Password" id="inputStyle">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your first name" required>
+                    </div>
 
-                    <input type="Password" placeholder="Confirm Password" id="inputStyle">
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your last name" required>
+                    </div>
 
-                    <input type="text" placeholder="City" id="inputStyle">
-                  <br>
-                  <br>
-                  <input type="submit" value="Sign up">
-            </fieldset>
-        </form>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="Password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">City</span>
+                        <input type="text" placeholder="Enter your city" required>
+                    </div>
+
+                    <div class="user-loc">
+                        <button id="get-loc"><img src="Images/location-dot-solid.svg" id="loc-icon"> Get Location</button>
+                    </div>
+
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Sign up">
+                </div>
+
+            </form>
+        </div>
+
+
         <h3 id="writetext4">Contact us</h3><!--End of page content-->
 
 
@@ -57,7 +88,7 @@
 			<div class="social-icon">
 			<div class="bottom"><a href="#" class="line"><i class="fa fa-phone"></i> 92000003</a></div>
 			<div class="bottom"><a href="#" class="line"><i class="fa fa-envelope"></i> info@sittersRUS.com</a></div>
-			<div class="bottom"><a href="#" class="line"><i class="fa fa-instagram"></i> @sittersRUS</a></div>
+			<div class="bottom"><a href="https://instagram.com/sitters.r.us.sa?igshid=Y2ZmNzg0YzQ" class="line"><i class="fa fa-instagram"></i> @sitters.R.US</a></div>
 		    </div>
 			<center><div class="copyright">&copy;Copyright</div></center>
 
