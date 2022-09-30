@@ -1,0 +1,295 @@
+body{margin: 0px;
+    padding: 0%;
+    background-color: #BEDCDB;
+    
+}
+
+#logo{
+    position: absolute;
+    width: 210px;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.top{
+    left: 460px;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: fantasy;
+    color: #515151;
+    z-index: 4;
+    
+    }
+
+.top:not(:first-of-type):hover,#active:hover{
+
+    color:#FFEF70;
+ 
+  }
+
+.subList{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 35px;
+    background-color: #abc7c6;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.subList li{
+    padding: 4px 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #BEDCDB;
+}
+.subList li a:hover { color:#FFEF70;}
+
+.top:hover .subList{ 
+    display: block;}
+
+
+.line{
+    color: #515151;
+    text-decoration:none;
+    text-align:center;   
+}
+.line:hover {
+    color:#FFEF70;
+}
+
+.List-1{
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    
+}
+
+.List-2{
+    
+    width: 300px;
+    position: relative;
+    right: 50%;
+    bottom: 20%;
+
+}
+
+
+
+.lable-b{
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;     
+    color: black;
+    font-weight: bolder;
+    /*width: 600px;*/
+    height: 0px;
+    top: 100px;
+    margin-top: 180px;
+    margin-left: -35%;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px;
+
+
+}
+.container{
+    font-family: fantasy;
+    display: flex ;
+    justify-content: center;
+    height: 1000px;
+    margin-top: 60px;
+    margin-left:-125%;
+   overflow: scroll;
+    overflow-x: hidden;
+    width:1000px;
+
+   }
+
+   .card{
+    background-color: #e8b991;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 4 rgba(0,0,0,0.4);
+    width:550px;
+    height:250px;
+    border-radius: 15px ;
+    position: relative;
+    right: 30px;
+    border:3px
+
+   }
+
+
+   #card-edit {
+
+    background-color: #e8b991;
+    width:1000px;
+    height:500px;
+    border-radius: 15px ;
+    position: relative;
+    lift: 100px;
+    border:3px
+}
+
+
+.perant-pic{
+   height:70px ;
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    position: relative;
+    left: 10px;
+    
+}
+
+.button{
+   display: inline;
+  border: 1px solid #e8b991;
+    border-radius: 35px;
+    background-color: #BEDCDB;
+    color: #515151;
+    font-family: fantasy;
+    margin-top: 50px;
+     margin-left: -90px;
+    margin-right: 100px;
+    padding: 10px 30px;
+    font-weight:bolder ;
+    font-size: -30pt;
+
+}
+
+.button:hover,
+.button:active
+{
+    color: #FFEF70;
+}
+
+.input{
+    display: block;
+    width: 180px;
+    padding: 10px 20px;
+    margin-top: -20px;
+    margin-left: 98px;
+    margin-right: 98px;
+    outline: none;
+    border: 1px solid #FFEF70;
+    border-radius: 25px;
+    background: #FFEF70;
+    color: #515151;}
+
+
+
+.perant-data li{
+
+list-style-type: none;
+display: inline;
+}
+
+#perant-info{
+    position: relative;
+    bottom: 80px;
+    left: 150px;
+
+}
+
+#Edit-info{
+    position: relative;
+    bottom: -70px;
+    left:100px;
+
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
+
+#pic2{
+    position: absolute;
+    left: 6px;
+    top: 182%;
+    width: 100%;
+    padding-bottom: 2px;
+}
+
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        color:#515151 ;
+        text-align: center;
+
+    }
+    .footer.container{
+        position: absolute;
+        
+    
+    }
+    .footer.social-icon i{
+        padding: 20px 30px;
+    }
+.bottom{
+    left: 80px;
+    position: relative;
+    float: left;
+    padding-right: 155px;
+    padding-left: 155px;
+    font-family: fantasy;
+    color: #515151;
+}
+.copyright{
+    margin-top: 58px;
+    }

@@ -1,0 +1,159 @@
+/*main page*/
+/*header*/
+body{margin: 0px;
+	padding: 0%;
+	background-color: #BEDCDB;
+}
+#logo{
+	position: absolute;
+	width: 210px;
+	height: 180px;
+	margin-top: 5px;
+	margin-left: 70px;
+}
+.top{
+	left: 460px;
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	padding-right: 60px;
+	padding-left: 60px;
+	font-family: fantasy;
+	color: #515151;
+    z-index: 4;
+	}
+    .top:hover .dropdown-content {
+        display: block;
+      }
+    .top:not(:first-of-type):hover,#active:hover{
+
+        color:#FFEF70;
+        
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+
+    .line{
+        color: #515151;
+        text-decoration:none;
+        text-align:center;   
+    }
+    .line:hover {
+        color:#FFEF70;
+    }
+    .dropdown-content {
+        display: none;
+        list-style: none;
+        position: absolute;
+        top: 35px;
+        background-color: #abc7c6;
+        border-radius: 5px;
+        padding: 0px;
+      }
+      .dropdown-content li {
+        padding: 4px 10px;
+        font-size: 20px;
+        border-bottom: 1px solid #BEDCDB;
+      }
+
+      .dropdown-content li a:hover { color:#FFEF70;}
+
+
+
+    /*footer*/
+    #pic2{
+        position: absolute;
+        left: 6px;
+        top: 207%;
+        width: 100%;
+        padding-bottom: 2px;
+    }
+    .footer{
+        padding-top: 1500px;
+        padding-bottom: 50px;
+        color:#515151 ;
+        text-align: center;
+    }
+    .footer.social-icon i{
+        padding: 20px 30px;
+    }
+    .bottom{
+        left: 80px;
+        position: relative;
+        float: left;
+        padding-right: 155px;
+        padding-left: 155px;
+        font-family: fantasy;
+        color: #515151;
+    }
+    .copyright{
+        margin-top: 58px;
+        }
+
+
+        /*request details*/
+
+       .requestdetails{
+
+        font-family: fantasy;
+        color: black;
+        
+        
+       
+
+       }
+
+
+
+     
+
+        #title1{
+           
+                font-size: 20px;
+                text-align: center;
+                font-weight: bolder;
+                position: relative;
+                top: 330px;
+                left: -383px;
+                
+                
+        }
+
+        #parent-photo{
+
+            border: 5px solid #E2B98F;
+            padding: 5px;
+            width: 150px;
+            position: absolute;
+            float: left;
+            top: 500px;
+            left: 200px;
+           
+
+
+
+        }
+
+        h3{
+            position: relative;
+            top: 460px;
+            left: -383px;
+            font-size: 20px;
+            letter-spacing: 3px;
+            line-height: -2px;
+           
+            
+          
+        }
+
+        span{
+            
+            color:#db8126
+            
+
+        }
+
+
+
