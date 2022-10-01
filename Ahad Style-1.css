@@ -14,7 +14,7 @@
 }
 
 .lable-b {
-    color: black;
+    color:  #515151;
     font-weight: bolder;
     height: 80px;
     margin-top: 180px;
@@ -31,6 +31,7 @@
    }
 
    .card{
+    color:  #515151;
     background-color: #ECB78B;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -128,6 +129,7 @@ label,input{
   /* Seconed Page*/
 
 .card2{
+    color: #515151;
     background-color: #ECB78B;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
