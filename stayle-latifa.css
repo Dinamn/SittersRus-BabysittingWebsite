@@ -133,7 +133,7 @@
 
 
 #container-edit{
-    font-family: fantasy;
+   font-family: fantasy;
     display: flex ;
     justify-content: center;
     height: 1000px;
@@ -141,7 +141,7 @@
     margin-left:-125%;
    overflow: scroll;
     overflow-x: hidden;
-    width:1200px;
+    width:1000px;
 
    }
 
@@ -150,13 +150,14 @@
    #card-edit {
 
     background-color: #e8b991;
-    width:1000px;
-    height:500px;
+    width:200 px;
+    height:300 px;
     border-radius: 15px ;
     position: relative;
-    right: px;
+    right:800 px;
     border:3px
 }
+
 
 .card2{
     background-color: #ECB78B;
@@ -235,12 +236,14 @@ padding: 10px;
     background-color: #BEDCDB;
     color: #515151;
     font-family: fantasy;
-    margin-top: 80px;
-     margin-left: -80px;
-    margin-right: 100px;
+    margin-top: 50px;
+     margin-left: 100px;
+    margin-right: 200px;
     padding: 10px 30px;
     font-weight:bolder ;
-    font-size: -30pt;
+    font-size: 12pt;
+      position: relative;
+    left: -180px;
 
 }
 
@@ -262,6 +265,15 @@ padding: 10px;
     border-radius: 25px;
     background: #FFEF70;
     color: #515151;}
+
+    .input_field{
+
+margin-bottom: 15px;
+display: block;
+align-items: center;
+
+
+}
 
 
 
@@ -294,9 +306,9 @@ display: inline;
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 40.20%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; /
 }
 
 
