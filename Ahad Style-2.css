@@ -58,7 +58,7 @@
 
 #Sitter-info{
     position: relative;
-    right: 110px;
+    right: 24px;
 }
 .btn-1 {
     background-color: #A5B2A1; 
@@ -72,7 +72,7 @@
     border-radius: 50%;
     margin: 5px;
     position: relative;
-    right: 205px;
+    right: 45px;
   }
   
   .btn-1:hover {
@@ -92,7 +92,7 @@
     border-radius: 50%;
     margin: 5px;
     position: relative;
-    right: 200px;
+    right: 40px;
   }
   
   .btn-2:hover {
@@ -221,13 +221,4 @@ textarea {
 }
 
 
-#MainPagePic{
-    position: relative;
-    display: grid;
-    width: 300px;
-    height: 600px;
-    left: 900px;
-    bottom: 243px;
-    z-index: 10;
-}
 
