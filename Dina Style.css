@@ -263,6 +263,7 @@ color: #515151;
             margin: 3%;
             height: 5vh;
             width: 45vh;
+            white-space: pre-line;
             
 
 
@@ -272,24 +273,37 @@ color: #515151;
 
         h6{
             position:absolute;
-            font-size: 18px;
+            font-size: 20px;
             height: 10%;
             width: 80vh;
-            margin-top: -50%;
+            margin-top: -45%;
             margin-left: 0%;
             background-color: #f2dac7;
             border-radius: 10px;;
             text-align: center;
+            white-space: pre-line;
         
+        }
+
+        .container{
+            background-color: #e07f30;
         }
 
         p{
             
             position:absolute;
-            margin-top: 10%;
-            margin-left: 70%;
+            margin-top: -28%;
+            margin-left: 20%;
             font-size: 25px;
             
+        }
+
+        iframe{
+            position:absolute;
+            margin-top: -22%;
+            margin-left: 18%;
+            width: 30% ;
+            height: 20%;
         }
 
 
