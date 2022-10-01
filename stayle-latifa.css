@@ -149,16 +149,7 @@
     right:800 px;
     border:3px
 }
-.card2{
-    background-color: #ECB78B;
-    box-sizing: border-box;
-    width: 100vh;
-    height: 150px;
-    margin: 45px;
-    border-radius: 45px ;
-    position: relative;
-    right: -120px;
-   }
+
 
 
 
@@ -350,6 +341,9 @@ display: inline;
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
 }
+
+
+
 
 
 
