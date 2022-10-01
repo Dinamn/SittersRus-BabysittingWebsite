@@ -550,12 +550,10 @@ color: #515151;
             display: inline-block;
           
         }
+
+
             
-        .button:hover,.button:active
-        {
-            right:1px  ;
-            color: #EAB789;
-        }
+       
 
         .button-babysitter{
 
@@ -579,12 +577,10 @@ color: #515151;
           
         }
 
+    
+
             
-        .button-babysitter:hover,.button-babysitter:active
-        {
-            right:1px  ;
-            color: #EAB789;
-        }
+     
 
         .button-babysitterR2{
 
@@ -607,6 +603,8 @@ color: #515151;
             display: inline-block;
           
         }
+
+       
 
         #offerbutton{
 
