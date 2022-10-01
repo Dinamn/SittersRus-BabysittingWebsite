@@ -29,6 +29,7 @@ body {
     padding-left: 50px;
     font-family: fantasy;
     color: #515151;
+    z-index: 5;
     }
 
 .line{
@@ -82,7 +83,7 @@ a{
     color: #515151;
 }
 
-.top:not(:first-of-type):hover,#active:hover{
+.top:hover{
     color:#EAB789; 
 }
 
