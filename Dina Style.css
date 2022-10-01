@@ -115,7 +115,7 @@ color: #515151;
 
       a{
         text-decoration: none;
-        color: black;
+        color: #515151;
       }
 
 
@@ -150,7 +150,7 @@ color: #515151;
         place-content : center;
         justify-items:  center;
         align-items: center;
-        background-color: #f2dac7;
+        background-color: #ECB78B;
         border-radius: 45px;
         height:  130vh;
         width: 100vh;
@@ -172,7 +172,7 @@ color: #515151;
         place-content : center;
         justify-items:  center;
         align-items: center;
-        background-color: #f2dac7;
+        background-color: #ECB78B;
         border-radius: 45px;
         height:  200vh;
         width: 100vh;
@@ -201,7 +201,7 @@ color: #515151;
                 position: absolute;
                 top: -45px;
                 left: 235px;
-                background-color: #f2dac7;
+                background-color: #ECB78B;
                 border-radius: 5px;
                 width: 40%;
                 
@@ -214,7 +214,7 @@ color: #515151;
 
         #parent-photo{
 
-            border: 5px solid #E2B98F;
+            border: 5px solid #e8c6ae;
             padding: 5px;
             width: 150px;
             position: absolute;
@@ -230,7 +230,7 @@ color: #515151;
 
         #babysitter-photo{
 
-            border: 5px solid #E2B98F;
+            border: 5px solid #e8c6ae;
             padding: 5px;
             width: 150px;
             position: absolute;
@@ -252,7 +252,7 @@ color: #515151;
             letter-spacing: 3px;
             line-height: -2px;
             color: #515151;
-            background-color: #eccfbc;
+            background-color: #e8c6ae;
             border-radius: 100px;
             height:  5vh;
             width: 44vh;
@@ -272,7 +272,7 @@ color: #515151;
             letter-spacing: 3px;
             line-height: -2px;
             color: #515151;
-            background-color: #eccfbc;
+            background-color:  #e8c6ae;
             border-radius: 100px;
             height:  5vh;
             width: 44vh;
@@ -291,7 +291,7 @@ color: #515151;
             letter-spacing: 3px;
             line-height: -2px;
             color: #515151;
-            background-color: #eccfbc;
+            background-color:  #e8c6ae;
             border-radius: 100px;
             height:  5vh;
             width: 44vh;
@@ -307,7 +307,8 @@ color: #515151;
 
         span{
             
-            color:#e07f30;
+            color:#8d8d8d;
+            
             
           
            
@@ -323,7 +324,7 @@ color: #515151;
             color: #515151;
             text-align: center;
             font-weight: bolder;
-            background-color: #edb185;
+            background-color: #e8c6ae;
             border-radius: 10px;
             width: 90vh;
            
@@ -338,7 +339,7 @@ color: #515151;
             color: #515151;
             text-align: center;
             font-weight: bolder;
-            background-color: #edb185;
+            background-color: #e8c6ae;
             border-radius: 10px;
             width: 90vh;
 
@@ -386,8 +387,8 @@ color: #515151;
             top: 20px;
             left: 7px;
             font-size: 23px;
-            color: #080400;
-            background-color: #E2B98F;
+            color: #515151;
+            background-color: #e8c6ae;
 
         }
         
@@ -453,7 +454,7 @@ color: #515151;
             width: 80vh;
             margin-top: -50%;
             margin-left: 0%;
-            background-color: #f2dac7;
+            
             border-radius: 10px;;
             text-align: center;
             white-space: pre-line;
@@ -468,7 +469,7 @@ color: #515151;
             width: 80vh;
             margin-top: -35%;
             margin-left: 0%;
-            background-color: #f2dac7;
+            background-color:  #ECB78B;
             border-radius: 10px;;
             text-align: left;
             white-space: pre-line;
@@ -508,7 +509,7 @@ color: #515151;
         }
 
         .container{
-            background-color: #e07f30;
+            background-color: #ECB78B;
         }
 
         p{
@@ -588,7 +589,7 @@ color: #515151;
         .button-babysitterR2{
 
             position: relative;
-            background-color:#E2B98F;
+            background-color:#A5B2A1;
             text-align:justify;
             transition: all 0.5s;
             color:#515151;
