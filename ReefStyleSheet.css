@@ -278,6 +278,21 @@ text-decoration: underline;
 
 }
 
+#thank {
+
+position: absolute;
+display: grid;
+width: 200px;
+height: 400px;
+left: 950px;
+top: 380px;
+z-index: 10;
+
+
+
+}
+
+
 
 
 
