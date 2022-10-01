@@ -51,35 +51,40 @@
 
 
 .lable-b{
-    font-family: fantasy;
-    display: flex;
-    justify-content: center;     
-    color: black;
+    color: initial;
     font-weight: bolder;
-    /*width: 600px;*/
-    height: 0px;
-    top: 100px;
-    margin-top: 260px;
-    margin-left: 10%;
+    height: 20px;
+    margin-top: 200px;
     text-align: center;
     padding: 15px 20px;
-    font-size: 20px;
-}
-.lable-bb{
-    font-family: fantasy;
-    display: flex;
-    justify-content: center;     
-    color: black;
-    font-weight: bolder;
-    /*width: 600px;*/
-    height: 0px;
-    top: 100px;
-    margin-top: 260px;
-    margin-left: -80%;
-    text-align: center;
-    padding: 15px 20px;
-    font-size: 20px;
+    font-size: 33px;
+    position: relative;
+    right: -60px;
 
+}
+
+#rating-b{
+    color: initial;
+    font-weight: bolder;
+    height: 30px;
+    margin-top: -60px;
+    padding: 20px 20px;
+    font-size: 30px;
+    position: relative;
+    right: -145px;
+
+}
+
+.lable-p{
+  color: initial;
+    font-weight: bolder;
+    height: 20px;
+    margin-top: 200px;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 33px;
+    position: relative;
+    right: 60px;
 }
 
 
@@ -98,18 +103,48 @@
 
    }
 
-   .card{
-    background-color: #e8b991;
+   #card-p{
+    background-color: #ECB78B;
     box-sizing: border-box;
-    box-shadow: 0 4px 8px 4 rgba(0,0,0,0.4);
-    width:550px;
-    height:250px;
-    border-radius: 15px ;
-    position: relative;
-    right: -60px;
-    border:3px
+    width: 100vh;
+    height: 230px;
+    margin: 18px;
+    border-radius: 45px ;
+     position: relative;
+    right: 30px;
+   
 
    }
+
+    #card-b{
+    background-color: #ECB78B;
+    box-sizing: border-box;
+    width: 100vh;
+    height: 230px;
+    margin: 18px;
+    border-radius: 45px ;
+     position: relative;
+    right: 30px;
+     position: relative;
+    right: -90px;
+   
+
+   }
+
+
+#container-edit{
+    font-family: fantasy;
+    display: flex ;
+    justify-content: center;
+    height: 1000px;
+    margin-top: 60px;
+    margin-left:-125%;
+   overflow: scroll;
+    overflow-x: hidden;
+    width:1200px;
+
+   }
+
 
 
    #card-edit {
@@ -119,20 +154,30 @@
     height:500px;
     border-radius: 15px ;
     position: relative;
-    lift: 100px;
+    right: px;
     border:3px
 }
 
 .card2{
-    background-color: #e8b991;
+    background-color: #ECB78B;
     box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 450px;
-    height: 110px;
-    margin: 18px;
-    border-radius: 15px ;
+    width: 100vh;
+    height: 150px;
+    margin: 45px;
+    border-radius: 45px ;
     position: relative;
-    right: 90px;
+    right: -120px;
+   }
+
+   .card2-p{
+    background-color: #ECB78B;
+    box-sizing: border-box;
+    width: 100vh;
+    height: 150px;
+    margin: 45px;
+    border-radius: 45px ;
+    position: relative;
+    right: 10px;
    }
 
 .checked {
@@ -259,6 +304,8 @@ display: inline;
     float: left;
     height: 46px;
     padding: 0 10px;
+     position: relative;
+    right: -170px;
 }
 .rate:not(:checked) > input {
     position:absolute;
