@@ -208,7 +208,7 @@ color: #515151;
 
         h3{
             position: relative;
-            top: -180px;
+            top: -10px;
             left: 0px;
             font-size: 20px;
             letter-spacing: 3px;
@@ -239,7 +239,7 @@ color: #515151;
 
         h4{
             position: relative;
-            top: 50px;
+            top: 200px;
             left: 5px;
             font-size: 25px;
             color: #515151;
@@ -258,12 +258,13 @@ color: #515151;
             font-size: 21px;
             text-align: left;
             color: #515151;
-            top: 115px;
+            top: 230px;
             left: -150px;
             margin: 3%;
             height: 5vh;
             width: 45vh;
             white-space: pre-line;
+            transition: 0.5s;
             
 
 
@@ -276,12 +277,13 @@ color: #515151;
             font-size: 20px;
             height: 10%;
             width: 80vh;
-            margin-top: -45%;
+            margin-top: -50%;
             margin-left: 0%;
             background-color: #f2dac7;
             border-radius: 10px;;
             text-align: center;
             white-space: pre-line;
+            transition: 0.5s;
         
         }
 
@@ -292,7 +294,7 @@ color: #515151;
         p{
             
             position:absolute;
-            margin-top: -28%;
+            margin-top: -24%;
             margin-left: 20%;
             font-size: 25px;
             
@@ -300,11 +302,40 @@ color: #515151;
 
         iframe{
             position:absolute;
-            margin-top: -22%;
+            margin-top: -18%;
             margin-left: 18%;
             width: 30% ;
             height: 20%;
         }
+
+        .button{
+
+            position: relative;
+            background-color:#A5B2A1;
+            text-align:justify;
+            transition: all 0.5s;
+            color:#515151;
+            font-family: fantasy;
+            margin: 6em;
+            padding: 25px 50px;
+            cursor:pointer;
+            font-size: 20px;
+            text-align: center;
+            top: 270px;
+            right: 10px;
+            border-radius: 20px;
+            box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+            display: inline-block;
+          
+        }
+            
+        .button:hover,.button:active
+        {
+            right:1px  ;
+            color: #EAB789;
+        }
+     
 
 
 
