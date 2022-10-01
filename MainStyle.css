@@ -51,6 +51,18 @@ body {
     margin-top: 100%;
 }
 
+#Ctext{
+
+text-align: left;
+font-size: 32px;
+font-weight: bolder;
+position: relative;
+left: 35px;
+text-transform: uppercase;
+
+
+}
+
 .social-icon{
     padding: 20px 30px;
 }
@@ -107,6 +119,16 @@ a{
 .subList li a:hover { color:#EAB789;}
 
 .top:hover .subList{ display: block;}
+
+.line{
+	color: #515151;
+	text-decoration:none;
+    text-align:center;   
+}
+.line:hover {
+    color:#EAB789;
+}
+
 
 
 
