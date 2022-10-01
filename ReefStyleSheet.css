@@ -1,3 +1,4 @@
+
 .button{
     background-color:#A5B2A1 ;
     outline: none;
@@ -25,10 +26,6 @@
 {
     color: #ECB78B;
 }
-
-
-
-/*Reef's*/
 
 
 #frame1{
@@ -159,14 +156,15 @@ align-items: center;
 
 .input{
 
-  width: 100%;
-  height: 60%;
+  width: 40%;
+  height: 70%;
   outline: none;
   border: 1px solid #AFAFAF;
+  border-radius: 5px;
   font-size: 24px;
   padding: 20 px 10 px;
-  border-radius: 40 px;
-  transition: all 0.3s ease;
+ 
+  
   background: #EAE8E3;
 
 }
@@ -278,6 +276,7 @@ text-decoration: underline;
 
 }
 
+
 #thank {
 
 position: absolute;
@@ -285,22 +284,28 @@ display: grid;
 width: 200px;
 height: 400px;
 left: 950px;
-top: 380px;
+top: 400px;
 z-index: 10;
-
-
 
 }
 
 
 
+#frame3{
 
+color: #515151;
+position: relative;
+display: grid;
+place-content : center;
+justify-items:  center;
+align-items: center;
+background-color: #ECB78B;
+border-radius: 45px;
+height:  70vh;
+width: 80vh;
+top: 270px; 
+right: 300px;
+z-index:  1;
+box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
-
-
-
-
-
-
-
-
+}
