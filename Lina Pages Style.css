@@ -23,6 +23,7 @@
 	margin: 18% 6%;
 	font-weight: bold;
 	font-size: 35pt;
+	color: #515151;
 }
 
 #writepar{
@@ -37,6 +38,7 @@
 	margin: 50% 6%;
 	font-weight: bold;
 	font-size: 35pt;
+	color: #515151;
 }
 
 .revForm1{
@@ -46,7 +48,7 @@
 	place-content : center;
     justify-items:  center;
     align-items: center;
-	background-color: #A5B2A1;
+	background-color: #ECB78B;
     border-radius: 20px;
 	height:  15vh;
     width: 50vh;
@@ -58,16 +60,19 @@
 #revName1{
 	position: absolute;
 	top: 20px;
-	left: 10px;
 	font-weight: bolder;
+	color: #515151;
+	text-align: left;
+	left: 10px;
 }
 
 #rev1{
 	position: absolute;
 	top: 50px;
-	left: 15px;
 	color: #515151;
 	font-weight: 700;
+	text-align: left;
+	left: 10px;
 }
 
 .revForm2{
@@ -77,7 +82,7 @@
 	place-content : center;
     justify-items:  center;
     align-items: center;
-	background-color: #A5B2A1;
+	background-color: #ECB78B;
     border-radius: 20px;
 	height:  15vh;
     width: 50vh;
@@ -89,16 +94,19 @@
 #revName2{
 	position: absolute;
 	top: 20px;
-	left: 10px;
 	font-weight: bolder;
+	color: #515151;
+	text-align: left;
+	left: 10px;
 }
 
 #rev2{
 	position: absolute;
 	top: 50px;
-	left: 5px;
 	color: #515151;
 	font-weight: 700;
+	text-align: left;
+	left: 10px;
 }
 
 .revForm3{
@@ -108,7 +116,7 @@
 	place-content : center;
     justify-items:  center;
     align-items: center;
-	background-color: #A5B2A1;
+	background-color: #ECB78B;
     border-radius: 20px;
 	height:  15vh;
     width: 50vh;
@@ -120,16 +128,19 @@
 #revName3{
 	position: absolute;
 	top: 20px;
-	left: 10px;
 	font-weight: bolder;
+	color: #515151;
+	text-align: left;
+	left: 10px;
 }
 
 #rev3{
 	position: absolute;
 	top: 50px;
-	left: 5px;
 	color: #515151;
 	font-weight: 700;
+	text-align: left;
+	left: 10px;
 }
 
 
@@ -141,6 +152,7 @@
 	font-weight: bold;
 	font-size: 35pt;
 	text-align: center;
+	color: #515151;
 }
 
 #MainPagePic{
@@ -176,6 +188,7 @@
 	font-size: 50pt;
 	padding-top: 90px;
 	font-family: fantasy;
+	color: #515151;
 }
 #inputStyle{
 	background-color:#dbdcd8 ;
@@ -227,10 +240,6 @@
     font-family: fantasy;
 }
 
-#logbut:hover{
-	color: #ECB78B;
-}
-
 .linegreen:hover{
 	color: #A5B2A1;
 }
@@ -258,6 +267,7 @@
 	font-size: 50pt;
 	margin-top: 20px;
 	font-family: fantasy;
+	color: #515151;
 }
 
 #buttonChoice{
@@ -280,10 +290,6 @@
     right: 10px;
     font-family: fantasy;
 	width: 300px;
-}
-
-#buttonChoice:hover{
-	color: #ECB78B;
 }
 
 /*Sign Up Parent page*/
@@ -309,6 +315,7 @@
 	font-weight: bolder;
 	padding-left: 5px;
 	position: relative;
+	color: #515151;
 }
 
 .container1 .title::before{
@@ -352,9 +359,8 @@
 	font-size: 15px;
 	cursor: pointer;
 }
-
 #uploadBtn:hover{
-	color: #ECB78B;
+    color: #ECB78B;
 }
 
 .container1 form .user-details{
@@ -398,13 +404,7 @@ form .user-details .input-box{
 	place-content : center;
     justify-items:  center;
     align-items: center;
-	border-bottom-width: 2px;
 	transition: all 0.3s ease;
-}
-
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
-	border-color: #515151;/**/
 }
 
 #file{
@@ -446,9 +446,8 @@ form .button input{
     cursor:pointer;
     font-size: 20px;
 	font-weight: bolder;
-    text-align: center;
 	margin-top: 50px;
-	margin-left: 550px;
+	margin-left: 300px;
     text-decoration:none ;
     color:#515151;
 	border: none;
@@ -457,10 +456,11 @@ form .button input{
 	position: relative;
     font-family: fantasy;
 	letter-spacing: 1px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
 }
-form .button input:hover{
-	color: #ECB78B;
-}
+
 
 input[type="file"]{
 	display: none;
@@ -491,6 +491,7 @@ input[type="file"]{
 	font-weight: bolder;
 	padding-left: 5px;
 	position: relative;
+	color: #515151;
 }
 
 .container2 .title::before{
@@ -543,10 +544,6 @@ input[type="file"]{
 	cursor: pointer;
 }
 
-#uploadBtn2:hover{
-	color: #ECB78B;
-}
-
 form .user-details2 .input-box2{
 	margin-top: 15px;
 	width: calc(100% / 2 - 20px);
@@ -581,14 +578,9 @@ form .user-details2 .input-box2{
 	place-content : center;
     justify-items:  center;
     align-items: center;
-	border-bottom-width: 2px;
 	transition: all 0.3s ease;
 }
 
-.user-details2 .input-box2 input:focus,
-.user-details2 .input-box2 input:valid{
-	border-color: #515151;
-}
 
 form .button2 input{
 	background-color:#A5B2A1 ;
@@ -598,9 +590,8 @@ form .button2 input{
     cursor:pointer;
     font-size: 20px;
 	font-weight: bolder;
-    text-align: center;
 	margin-top: 1px;
-	margin-left: 550px;
+	margin-left: 300px;
     text-decoration:none ;
     color:#515151;
 	border: none;
@@ -609,10 +600,9 @@ form .button2 input{
 	position: relative;
     font-family: fantasy;
 	letter-spacing: 1px;
-}
-
-form .button2 input:hover{
-	color: #ECB78B;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
 }
 
 .input_field{
