@@ -542,7 +542,7 @@ color: #515151;
             cursor:pointer;
             font-size: 20px;
             text-align: center;
-            top: 270px;
+            top: 150px;
             right: 10px;
             border-radius: 20px;
             box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -568,8 +568,8 @@ color: #515151;
             cursor:pointer;
             font-size: 20px;
             text-align: center;
-            top: 680px;
-            right: 25px;
+            top: 570px;
+            right: 7px;
             border-radius: 20px;
             box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
             cursor: pointer;
@@ -591,16 +591,18 @@ color: #515151;
             color:#515151;
             font-family: fantasy;
             margin: 1em;
-            padding: 10px 35px;
+            padding: 10px 20px;
             cursor:pointer;
             font-size: 20px;
             text-align: center;
-            top: 760px;
+            top: 720px;
             right: 270px;
             border-radius: 20px;
             box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
             cursor: pointer;
             display: inline-block;
+            
+            
           
         }
 
@@ -609,7 +611,7 @@ color: #515151;
         #offerbutton{
 
             
-            top: 485px;
+            top: 350px;
             
           
         }
