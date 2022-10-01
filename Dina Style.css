@@ -206,6 +206,22 @@ color: #515151;
 
         }
 
+        #babysitter-photo{
+
+            border: 5px solid #E2B98F;
+            padding: 5px;
+            width: 150px;
+            position: absolute;
+            
+            top: 30px;
+            left: 300px;
+            
+           
+
+
+
+        }
+
         h3{
             position: relative;
             top: -10px;
@@ -226,6 +242,24 @@ color: #515151;
             
           
         }
+        #babysitter-name{
+            position: relative;
+            top: -40px;
+            left: -5px;
+            font-size: 25px;
+            letter-spacing: 3px;
+            line-height: -2px;
+            color: #515151;
+            background-color: #eccfbc;
+            border-radius: 100px;
+            height:  5vh;
+            width: 44vh;
+            z-index:  2;
+            text-align: center;
+            margin: 3%;
+
+        }
+  
 
         span{
             
@@ -252,6 +286,19 @@ color: #515151;
             
 
         }
+        #babysitter-offertitle{
+            position: relative;
+            top: 250px;
+            left: 5px;
+            font-size: 25px;
+            color: #515151;
+            text-align: center;
+            font-weight: bolder;
+            background-color: #edb185;
+            border-radius: 10px;
+            width: 90vh;
+
+        }
 
         h5{
             position: relative;
@@ -272,6 +319,42 @@ color: #515151;
         
         }
 
+        #offer-title-detials1{
+
+            top: 20px;
+            left: 7px;
+            font-size: 23px;
+            color: #080400;
+
+        }
+        
+
+
+
+        .babbysitter-info{
+            position: relative;
+            display: inline;
+            font-size: 21px;
+            text-align: left;
+            color: #515151;
+            top: 230px;
+            left: -20px;
+            margin: 3%;
+            height: 5vh;
+            width: 85vh;
+            transition: 0.5s;
+            
+
+
+
+        
+        }
+        #infobs{
+
+            margin: 4%
+
+        }
+
         h6{
             position:absolute;
             font-size: 20px;
@@ -285,6 +368,35 @@ color: #515151;
             white-space: pre-line;
             transition: 0.5s;
         
+        }
+
+        #bio{
+            position:absolute;
+            font-size: 20px;
+            height: 10%;
+            width: 80vh;
+            margin-top: -35%;
+            margin-left: 0%;
+            background-color: #f2dac7;
+            border-radius: 10px;;
+            text-align: left;
+            white-space: pre-line;
+            transition: 0.5s;
+        
+        }
+
+        .line2{
+            position:absolute;
+            top: 520px;
+            left: 80px;
+            color:#aa520b;
+            font-size: 13px;
+            text-decoration: underline;
+
+        }
+        .line2:hover {
+            color:#080400;
+            text-decoration: underline;
         }
 
         .container{
@@ -331,6 +443,34 @@ color: #515151;
         }
             
         .button:hover,.button:active
+        {
+            right:1px  ;
+            color: #EAB789;
+        }
+
+        .button-babysitter{
+
+            position: relative;
+            background-color:#A5B2A1;
+            text-align:justify;
+            transition: all 0.5s;
+            color:#515151;
+            font-family: fantasy;
+            margin: 6em;
+            padding: 25px 50px;
+            cursor:pointer;
+            font-size: 20px;
+            text-align: center;
+            top: 490px;
+            right: 10px;
+            border-radius: 20px;
+            box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+            display: inline-block;
+          
+        }
+            
+        .button-babysitter:hover,.button-babysitter:active
         {
             right:1px  ;
             color: #EAB789;
