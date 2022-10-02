@@ -124,12 +124,13 @@
    font-family: fantasy;
     display: flex ;
     justify-content: center;
-    height: 1000px;
+    height: 700px;
     margin-top: 60px;
     margin-left:-125%;
    overflow: scroll;
     overflow-x: hidden;
-    width:1000px;
+    width:900px;
+   
 
    }
 
@@ -213,29 +214,26 @@ padding: 10px;
 }
 
 .button{
-   display: inline;
-  border: 1px solid #e8b991;
-    border-radius: 35px;
-    background-color: #BEDCDB;
+   display: inline-block;
+  border: 1px ;
+    border-radius: 20px;
+    background-color: #A5B2A1;
     color: #515151;
     font-family: fantasy;
-    margin-top: 50px;
-     margin-left: 100px;
-    margin-right: 200px;
+    top: 350px;
+    left: 10px;
+    margin:auto 2em ;
     padding: 10px 30px;
     font-weight:bolder ;
     font-size: 12pt;
       position: relative;
     left: -180px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 
 }
 
-.button:hover,
-.button:active
-{
-    color: #FFEF70;
-}
+
 
 .input{
     display: block;
@@ -245,9 +243,9 @@ padding: 10px;
     margin-left: 98px;
     margin-right: 98px;
     outline: none;
-    border: 1px solid #FFEF70;
+    border: 1px solid;
     border-radius: 25px;
-    background: #FFEF70;
+    
     color: #515151;}
 
     .input_field{
