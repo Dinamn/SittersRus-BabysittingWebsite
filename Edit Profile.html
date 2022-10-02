@@ -16,7 +16,7 @@
 
     <body>
 
-        <div id="body1">
+    <div id="body1">
 
             <img src="Images/Sitters R US (3).png" alt="LOGO" id="logo">
 
@@ -24,25 +24,28 @@
 
             <div class="top"><h2>Profile</h2>
                <ul class = "subList">
-                   <li><a href="View Parent Profile.html"  class="line">View</a></li>
-                   <li><a href="Edit Parint Profile .html"  class="line">Edit</a></li>
+                   <li><a href="View Babysitter Profile.html">View</a></li>
+                   <li><a href="Edit Profile .html">Edit</a></li>
                    <li><a href="[Lina.1]Home Page.html">Log Out</a></li>
 
                </ul>
             </div>
 
-            <div class="top"><h2>Bookings</h2>
+            <div class="top"><h2>Jobs</h2>
                 <ul class = "subList">
-                    <li><a href="Current Bookings.html"  class="line">Current</a></li>
-                    <li><a href="Previous Bookings.html"  class="line">Previous</a></li>
+                    <li><a href="Current jobs.html">Current</a></li>
+                    <li><a href="Previous jobs.html">Previous</a></li>
                 </ul>            
             </div>
 
-            <div class="top"><a href="[Reef]CurrentRequests.html" class="line"><h2>Current Requests</h2></a> </div>
+            <div class="top"><h2>Ratings</h2>
+                <ul class = "subList">
+                    <li><a href="Rate.html">Rates</a></li>
+                    <li><a href="Review.html">Review</a></li>
+                 </ul>            
+            </div>
         </div>
 
-
-        
 
 
         <div class="List-1">
@@ -52,7 +55,7 @@
                 </div>
 
 
-        <div class ="container-edit">
+        <div class="container-edit">
 <div class="card-edit" >
     <div class="Edit-info"  >
 
@@ -60,22 +63,19 @@
         <div class="row">
   <div class="column">
     <h2>Personal Information</h2>
-     <label> Parint name : </label> <br>
+     <label> Name : </label> <br>
 
-                <input type = "text" name = "ParintName" class = "input">
+                <input type = "text" name = "babysitterName" class = "input">
 
                 
-                <label>  kid's name  : </label> <br>
+                <label> Password: </label> <br>
 
-                <input type = "text" name = "kidsName" class = "input">
+                <input type = "text" name = "Password" class = "input">
 
                 <label>  Phone : </label> <br>
 
                 <input type = "text" name = "Phone" class = "input">
-                <label> Password: </label> <br>
-
-                <input type = "text" name = "Password" class = "input">
-                 <label> Email: </label> <br>
+                <label> Email: </label> <br>
 
                 <input type = "text" name = "Email" class = "input">
    
@@ -83,29 +83,13 @@
              <div class = "input_field">
                 <br><br><br>
 
-            <label> Your kid's gender : </label> <br>
+            <label> Your gender : </label> <br>
 
-                <input type = "radio" name = "kidGender" value= "female" > female <br>
-                <input type = "radio" name = "kidGender" value = "male" > Male
+                <input type = "radio" name = "Gender" value= "female" > female <br>
+                <input type = "radio" name = "Gender" value = "male" > Male
 </div>
 
-                <div class = "input_field"> 
-
-           <label> Your kid's age : </label>
-
-                <select name = "age"  class="custom_select">
-
-                    <option> - </option>
-                    <option> under 1 year </option>
-                    <option>  1 year </option>
-                    <option> 2 years </option>
-                    <option> 3 years </option>
-                    <option> 4 years </option>
-                    <option> 5 years </option>
-                    <option> 6 years </option>
-                
-                </select>
-            </div> </div>
+</div>
 
   <div class="column">
     <h2>Address</h2>
@@ -122,7 +106,7 @@
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
                       
                     <input class="button" type="button"name="submit" value="Edit">
