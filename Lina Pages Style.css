@@ -438,7 +438,7 @@ form .user-details .input-box{
 	transition: all 0.3s ease;
 }
 
-form .button input{
+form .button {
 	background-color:#A5B2A1 ;
 	outline: none;
     padding: 20px 50px;
@@ -582,7 +582,7 @@ form .user-details2 .input-box2{
 }
 
 
-form .button2 input{
+form .button2 {
 	background-color:#A5B2A1 ;
 	outline: none;
     padding: 20px 50px;
