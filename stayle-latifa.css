@@ -10,6 +10,8 @@
 
 }
 
+
+
 .subList li{
     padding: 4px 10px;
     font-size: 20px;
@@ -113,9 +115,24 @@
     right: 10px;
    }
 
+     .card2-p1{
+    background-color: #ECB78B;
+    box-sizing: border-box;
+    width: 100vh;
+    height: 150px;
+    margin: 45px;
+    border-radius: 45px ;
+    position: relative;
+    right: 45px;
+   }
+
 .checked {
   color: #BEDCDB;
 }
+
+#name{
+	
+  }
 
 
      .Sitter-data{
