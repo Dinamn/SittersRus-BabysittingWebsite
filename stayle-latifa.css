@@ -137,6 +137,7 @@
 
 
 
+
    .card2-p{
     background-color: #ECB78B;
     box-sizing: border-box;
@@ -211,6 +212,17 @@ padding: 10px;
     left: 10px;
     
 }
+.perant-picp{
+   height:70px ;
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top: -70px;
+    border-radius: 50%;
+    padding: 2px;
+    position: relative;
+    left: 10px;
+    
+}
 .perant-data{
     position: relative;
     top: 20px;
@@ -233,7 +245,7 @@ display: inline;
 .p-info{
     position: relative;
     bottom: 80px;
-    left: 150px;
+    left: -88px;
     color: #515151;
 
 }
