@@ -48,6 +48,13 @@
     font-size: 40px;
     position: absolute; 
 }
+.yrate{
+    color: #515151;
+    font-weight: bolder;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+}
 
 
 
