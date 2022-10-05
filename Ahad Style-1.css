@@ -9,7 +9,7 @@
     height:  80vh;
     width: 110vh;
     position: relative;
-    right: 302px;
+    right: 360px;
     top: 70px;
 }
 
@@ -39,6 +39,8 @@
     height: 200px;
     margin: 18px;
     border-radius: 45px ;
+
+    
 
    }
    
