@@ -61,9 +61,29 @@ label,input{
     bottom: 7px;
     line-height: 2.5;
 } 
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+form .currency{
+    font-size: 14px;
+    background-color: #dbdcd8;
+    border: 2px solid #dbdcd8;
+    border-right:0 ;
+    line-height: 2.5;
+    border-radius: 20px 0 0 20px;
+    padding: 0 5px 0 5px;
+
+
+}
 form .text{
+    color:#515151;
+    outline: none;
     background-color: #dbdcd8;
     border: none;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    
 }
 
 
@@ -109,11 +129,9 @@ form .text{
 }
 
 .text{
-    border-color: black;
     border-radius: 5px;
-    width: 130px;
-    height: 20px;
-    font-size: 20px;
+    width: 120px;
+    font-size: 14px;
 }
 #link{
     text-decoration: underline;

@@ -189,6 +189,7 @@ display: inline-block;
 }
 
 textarea {
+    outline: none;
     resize: none;
     font-size: 20px;
     border-radius: 15px;
