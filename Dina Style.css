@@ -538,7 +538,7 @@ color: #515151;
             color:#515151;
             font-family: fantasy;
             margin: 6em;
-            padding: 25px 50px;
+            padding: 20px 50px;
             cursor:pointer;
             font-size: 20px;
             text-align: center;
@@ -548,6 +548,7 @@ color: #515151;
             box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
             cursor: pointer;
             display: inline-block;
+            
           
         }
 
@@ -564,7 +565,7 @@ color: #515151;
             color:#515151;
             font-family: fantasy;
             margin: 6em;
-            padding: 25px 50px;
+            padding: 20px 50px;
             cursor:pointer;
             font-size: 20px;
             text-align: center;

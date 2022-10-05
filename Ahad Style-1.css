@@ -61,6 +61,10 @@ label,input{
     bottom: 7px;
     line-height: 2.5;
 } 
+form .text{
+    background-color: #dbdcd8;
+    border: none;
+}
 
 
 .button{

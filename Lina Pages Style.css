@@ -175,10 +175,10 @@
     align-items: center;
 	background-color: #ECB78B;
     border-radius: 45px;
-	height:  85vh;
-    width: 100vh;
-	left: 320px;
-    top: 320px;
+	height:  80vh;
+    width: 90vh;
+	left: 380px;
+    top: 350px;
 	z-index:  1;
 	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -186,20 +186,39 @@
 .loginform h1{
 	font-weight: bolder;
 	font-size: 50pt;
-	padding-top: 90px;
+	padding-top: 50px;
 	font-family: fantasy;
 	color: #515151;
 }
-#inputStyle{
+.loginform .user-details0{
+	display: inline;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 30px 0px 12px 35px;
+}
+
+.loginform .user-details0 .input-box0{
+	margin-top: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.user-details0 .input-box0 .details0{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 1px;
+	color: #515151;
+	font-size: 20px;
+	margin-right: 70px;
+}
+
+.user-details0 .input-box0 input{
 	background-color:#dbdcd8 ;
 	outline: none;
-	padding: 20px 50px;
+	padding: 10px 40px;
 	padding-left: 15px;
-	display: inline-block;
-	cursor:pointer;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: left;
-	margin-top: 25px;
+	margin-top: 1px;
 	text-decoration:none ;
 	color:#515151;
 	border: 1px solid #dbdcd8;
@@ -211,13 +230,7 @@
 	place-content : center;
     justify-items:  center;
     align-items: center;
-	border-bottom-width: 2px;
 	transition: all 0.3s ease;
-}
-.loginform input:focus,
-.loginform input:valid,
-.loginform input:hover{
-	border-color: #515151;
 }
 
 #logbut{
@@ -229,7 +242,7 @@
     font-size: 20px;
 	font-weight: bolder;
     text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
     text-decoration:none ;
     color:#515151;
 	border: none;
@@ -254,12 +267,21 @@
     align-items: center;
 	background-color: #ECB78B;
     border-radius: 45px;
-	height:  85vh;
-    width: 100vh;
-	left: 320px;
-    top: 320px;
+	height:  80vh;
+    width: 90vh;
+	left: 380px;
+    top: 350px;
 	z-index:  1;
 	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#PagePic{
+	position: absolute;
+    display: grid;
+    width: 300px;
+    height: 600px;
+    left: 950px;
+    top: 390px;
+    z-index: 10;
 }
 
 .SignUPform h1{
@@ -305,7 +327,7 @@
 	height:  95vh;
     width: 100vh;
 	left: 300px;
-    top: 400px;
+    top: 350px;
 	z-index:  1;
 	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -389,7 +411,6 @@ form .user-details .input-box{
 	padding: 10px 40px;
 	padding-left: 15px;
 	display: inline-block;
-	cursor:pointer;
 	font-size: 15px;
 	text-align: left;
 	margin-top: 1px;
@@ -478,10 +499,10 @@ input[type="file"]{
     align-items: center;
 	background-color: #ECB78B;
     border-radius: 45px;
-	height:  135vh;
+	height:  120vh;
     width: 100vh;
 	left: 300px;
-    top: 400px;
+    top: 350px;
 	z-index:  1;
 	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -543,6 +564,9 @@ input[type="file"]{
 	font-size: 15px;
 	cursor: pointer;
 }
+#uploadBtn2:hover{
+    color: #ECB78B;
+}
 
 form .user-details2 .input-box2{
 	margin-top: 15px;
@@ -563,7 +587,6 @@ form .user-details2 .input-box2{
 	padding: 10px 40px;
 	padding-left: 15px;
 	display: inline-block;
-	cursor:pointer;
 	font-size: 15px;
 	text-align: left;
 	margin-top: 1px;
@@ -590,8 +613,8 @@ form .button2 {
     cursor:pointer;
     font-size: 20px;
 	font-weight: bolder;
-	margin-top: 1px;
-	margin-left: 300px;
+	margin-top: 3px;
+	margin-left: 280px;
     text-decoration:none ;
     color:#515151;
 	border: none;
@@ -610,7 +633,7 @@ form .button2 {
 	display: block;
 	align-items: center;
 	padding: 20px 50px;
-	padding-left: 35px;
+	padding-left: 3px;
 	font-weight: 700;
 	color: #515151;
 	font-size: 20px;
@@ -618,8 +641,8 @@ form .button2 {
 
 .sitterBio{
 	font-size: 20px;
-	padding: 5px 50px;
-	padding-left: 35px;
+	padding: 15px 50px;
+	padding-right: 80px;
 	font-weight: 700;
 	color: #515151;
 }
