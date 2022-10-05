@@ -40,6 +40,21 @@
     font-size: 40px;
     position: absolute;
 }
+
+.lable-p1{
+    color:  #515151;
+    font-weight: bolder;
+    height: 4px;
+    margin-top: 300px;
+    margin-left: 650px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    position: relative;
+    right: -20px;
+}
+
+
 .lable-v{
     color:  #515151;
     font-weight: bolder;
@@ -57,6 +72,14 @@
     font-size: 20px;
     margin-top: 50px;
 }
+
+.container9{
+    display: flex ;
+    justify-content: center;
+    height: 500px;
+    overflow-x: hidden;
+}
+
 
 
 
@@ -101,6 +124,16 @@
    
 
    }
+   .card2{
+    color: #515151;
+    background-color: #ECB78B;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100vh;
+    height: 140px;
+    margin: 18px;
+    border-radius: 45px ;
+}
 
 
 
@@ -131,7 +164,7 @@
 }
 
 #name{
-	
+
   }
 
 
@@ -178,7 +211,18 @@ padding: 10px;
     left: 10px;
     
 }
+.perant-data{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
+    line-height: 2;
 
+}
 
 .perant-data li{
 
@@ -615,6 +659,31 @@ form .user-details2 .input-box2{
 	border: 1px solid #dbdcd8;
 	border-bottom-width: 2px;
 	font-size: 15px;
+}
+
+
+.List-1{
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.List-2{
+    height:  80vh;
+    width: 110vh;
+    position: relative;
+    right: 302px;
+    top: 70px;
+}
+.lable-b {
+    color:  #515151;
+    font-weight: bolder;
+    width: auto;
+    height: 80px;
+    margin-top: 180px;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 40px;
 }
 
 
