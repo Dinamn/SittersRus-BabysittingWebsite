@@ -192,7 +192,8 @@ textarea {
     resize: none;
     font-size: 20px;
     border-radius: 15px;
-    border-color: black;
+    border: none;
+    background-color: #dbdcd8;
   }
 
 .button{

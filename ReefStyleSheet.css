@@ -41,7 +41,7 @@ border-radius: 45px;
 height:  80vh;
 width: 90vh;
 left: 380px;
-top: 270px; 
+top: 350px; 
 z-index:  1;
 box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
@@ -57,7 +57,7 @@ display: grid;
 width: 300px;
 height: 600px;
 left: 950px;
-bottom: 330px;
+bottom: 250px;
 z-index: 10;
 
 }
@@ -192,19 +192,25 @@ cursor: pointer;
 }
 
 .btn{
-
-
-padding-top: 7px;
-padding-left: 90px;
-padding-right: 90px;
-font-size: 28px;
-border: 0;
-background: #A5B2A1;
-color: #515151 ;
-cursor: pointer;
-border-radius: 10px;
-outline: none;
-box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color:#A5B2A1 ;
+	outline: none;
+    padding: 20px 50px;
+	display: inline-block;
+    cursor:pointer;
+    font-size: 20px;
+	font-weight: bolder;
+	margin-top: 50px;
+    text-decoration:none ;
+    color:#515151;
+	border: none;
+    border-radius: 20px;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+    font-family: fantasy;
+	letter-spacing: 1px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
 
 }
 
@@ -301,10 +307,10 @@ justify-items:  center;
 align-items: center;
 background-color: #ECB78B;
 border-radius: 45px;
-height:  70vh;
-width: 80vh;
-top: 270px; 
-right: 300px;
+height:  80vh;
+width: 90vh;
+top: 360px; 
+right: 350px;
 z-index:  1;
 box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
