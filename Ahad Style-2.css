@@ -189,10 +189,15 @@ display: inline-block;
 }
 
 textarea {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: fantasy;
+    color: #515151;
     outline: none;
     resize: none;
     font-size: 20px;
     border-radius: 15px;
+    height: 80px;
     border: none;
     background-color: #dbdcd8;
   }
@@ -214,7 +219,7 @@ textarea {
     border-radius: 15px;
     box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     position: relative;
-    right: 170px;
+    right: 160px;
     top: 30px;
 
 }
