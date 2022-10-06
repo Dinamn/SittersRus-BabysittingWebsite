@@ -101,7 +101,7 @@
     background-color: #ECB78B;
     box-sizing: border-box;
     width: 100vh;
-    height: 230px;
+    height: 300px;
     margin: 18px;
     border-radius: 45px ;
      position: relative;
@@ -213,8 +213,8 @@ padding: 10px;
     
 }
 .perant-picp{
-   height:70px ;
-    width: 70px;
+   height:90px ;
+    width: 90px;
     margin-bottom: 20px;
     margin-top: -70px;
     border-radius: 50%;
@@ -244,8 +244,7 @@ display: inline;
 
 .p-info{
     position: relative;
-    bottom: 80px;
-    left: -88px;
+    right: 250px;
     color: #515151;
 
 }
