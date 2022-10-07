@@ -30,30 +30,6 @@
     text-align:center;   
 }
 
-.lable-p{
-    color:  #515151;
-    font-weight: bolder;
-    height: 20px;
-    margin-top: 300px;
-    margin-left: 650px;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-}
-
-.lable-p1{
-    color:  #515151;
-    font-weight: bolder;
-    height: 4px;
-    margin-top: 300px;
-    margin-left: 650px;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-    position: relative;
-    right: -20px;
-}
-
 
 .lable-v{
     color:  #515151;
@@ -97,33 +73,7 @@
 
    }
 
-   #card-p{
-    background-color: #ECB78B;
-    box-sizing: border-box;
-    width: 100vh;
-    height: 300px;
-    margin: 18px;
-    border-radius: 45px ;
-     position: relative;
-    right: 30px;
-   
 
-   }
-
-    #card-b{
-    background-color: #ECB78B;
-    box-sizing: border-box;
-    width: 100vh;
-    height: 230px;
-    margin: 40px;
-    border-radius: 45px ;
-     position: relative;
-    right: 30px;
-
-   
-   
-
-   }
    .card2{
     color: #515151;
     background-color: #ECB78B;
@@ -133,32 +83,29 @@
     height: 140px;
     margin: 18px;
     border-radius: 45px ;
+
+
+}
+
+.item2 { grid-area: pic; }
+.item3 { grid-area: com; }
+.item4 { grid-area: str ; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'pic com str';
+  gap: 10px;
+  padding: 10px;
+
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
 
-
-
-   .card2-p{
-    background-color: #ECB78B;
-    box-sizing: border-box;
-    width: 100vh;
-    height: 150px;
-    margin: 45px;
-    border-radius: 45px ;
-    position: relative;
-    right: 10px;
-   }
-
-     .card2-p1{
-    background-color: #ECB78B;
-    box-sizing: border-box;
-    width: 100vh;
-    height: 150px;
-    margin: 45px;
-    border-radius: 45px ;
-    position: relative;
-    right: 45px;
-   }
 
 .checked {
   color: #c59b08;
@@ -180,7 +127,6 @@
 .Sitter-data li{
 list-style-type: none;
 display: inline-block;
-padding: 10px;
 }
 
 .Sitter-pic{
@@ -190,6 +136,7 @@ padding: 10px;
     right: 8px;
     border-radius: 50%;
     padding: 10px;
+    top: -15px;
 }
 
 .Sitter-info{
@@ -199,39 +146,47 @@ padding: 10px;
 }
 
 
+.star-data{
+    position: relative;
+    top: 20px;
+    display:inline-flex;
+    justify-content: left;
+    align-items: end;
 
-.perant-pic{
-   height:70px ;
-    width: 70px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 50%;
-    padding: 2px;
-    position: relative;
-    left: -10px;
-    
 }
-.perant-picp{
-   height:90px ;
-    width: 90px;
-    margin-bottom: 20px;
-    margin-top: -70px;
-    border-radius: 50%;
-    padding: 2px;
-    position: relative;
-    left: 10px;
-    
+
+.perant-rates{
+     position: relative;
+    display:inline-flex;
+    justify-content: right;
+
+
 }
+
 .perant-data{
     position: relative;
     top: 20px;
     font-size: 25px;
-	display: flex;
+	display:inline-flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 1.5em;
 	transition: 0.3s;
     line-height: 2;
+    grid-row: 3;
+
+}
+.perant-data1{
+    position: absolute;
+    top:40px;
+right: -500px;
+    font-size: 25px;
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+    line-height: 9;
 
 }
 
@@ -249,47 +204,6 @@ display: inline;
 }
 
 
-
-.buttonDoneB{
-   display: inline-block;
-  border: 1px ;
-    border-radius: 20px;
-    background-color: #A5B2A1;
-    color: #515151;
-    font-family: fantasy;
-    top: 300px;
-    left: 80px;
-    margin:auto 2em ;
-    padding: 20px 30px;
-    font-weight:bolder ;
-    font-size: 14pt;
-      position: relative;
-    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-
-
-}
-
-
-.buttonCancelB{
-   display: inline;
-  border: 1px ;
-    border-radius: 20px;
-    background-color: #A5B2A1;
-    color: #515151;
-    font-family: fantasy;
-    top: 350px;
-    
-    margin:auto 2em ;
-    padding: 20px 30px;
-    font-weight:bolder ;
-    font-size: 14pt;
-      position: relative;
-    right: 300px;
-    top: 250px;
-    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-
-}
-/*edit parent profil*/
 
 .container1{
 	position: absolute;
@@ -334,7 +248,7 @@ display: inline;
 	height: 190px;
 	width: 190px;
 	position: absolute;
-	top: 25%;
+	top: 17%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	border-radius: 50%;
@@ -402,8 +316,6 @@ form .user-details .input-box{
             height: 130%;
             position: relative;
             right: 35px;
-         
-
 
 
         }
@@ -441,57 +353,6 @@ form .user-details .input-box{
 #file{
 	display: none;
 }
-
-#loc-icon{
-	width: 0.75em;
-}
-#get-loc{
-	background-color:#dbdcd8 ;
-    outline: none;
-    padding: 10px 40px;
-	padding-left: 15px;
-    display: inline-block;
-    cursor:pointer;
-    font-size: 15px;
-	font-weight: 700;
-    text-align: left;
-    margin-top: 2px;
-    text-decoration:none ;
-    color:#515151;
-    border: 1px solid #dbdcd8;
-    border-radius: 20px;
-    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
-    right: 8px;
-    font-family: fantasy;
-	width: 330px;
-	border-bottom-width: 2px;
-	transition: all 0.3s ease;
-}
-
-form .buttonc {
-	background-color:#A5B2A1 ;
-	outline: none;
-    padding: 20px 50px;
-	display: inline-block;
-    cursor:pointer;
-    font-size: 20px;
-	font-weight: bolder;
-	margin-top: 25px;
-	margin-left: 300px;
-    text-decoration:none ;
-    color:#515151;
-	border: none;
-    border-radius: 20px;
-	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-	position: relative;
-    font-family: fantasy;
-	letter-spacing: 1px;
-	place-content : center;
-    justify-items:  center;
-    align-items: center;
-}
-
 
 input[type="file"]{
 	display: none;
@@ -690,6 +551,95 @@ form .user-details2 .input-box2{
     padding: 15px 20px;
     font-size: 40px;
 }
+#loc-icon{
+    width: 0.75em;
+}
+#get-loc{
+    background-color:#dbdcd8 ;
+    outline: none;
+    padding: 10px 40px;
+    padding-left: 15px;
+    display: inline-block;
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 2px;
+    text-decoration:none ;
+    color:#515151;
+    border: 1px solid #dbdcd8;
+    border-radius: 20px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    right: 8px;
+    font-family: fantasy;
+    width: 330px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.buttonDoneB{
+   display: inline-block;
+  border: 1px ;
+    border-radius: 20px;
+    background-color: #A5B2A1;
+    color: #515151;
+    font-family: fantasy;
+    top: 300px;
+    left: 80px;
+    margin:auto 2em ;
+    padding: 20px 30px;
+    font-weight:bolder ;
+    font-size: 14pt;
+      position: relative;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.buttonCancelB{
+   display: inline;
+  border: 1px ;
+    border-radius: 20px;
+    background-color: #A5B2A1;
+    color: #515151;
+    font-family: fantasy;
+    top: 350px;
+    
+    margin:auto 2em ;
+    padding: 20px 30px;
+    font-weight:bolder ;
+    font-size: 14pt;
+      position: relative;
+    right: 300px;
+    top: 250px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+form .buttonc {
+    background-color:#A5B2A1 ;
+    outline: none;
+    padding: 20px 50px;
+    display: inline-block;
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-left: 300px;
+    text-decoration:none ;
+    color:#515151;
+    border: none;
+    border-radius: 20px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    place-content : center;
+    justify-items:  center;
+    align-items: center;
+}
+
+
 
 
 
