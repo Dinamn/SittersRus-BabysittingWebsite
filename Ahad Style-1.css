@@ -79,6 +79,7 @@ form .currency{
 
 }
 form .text{
+    font-family: fantasy;
     color:#515151;
     outline: none;
     background-color: #dbdcd8;
