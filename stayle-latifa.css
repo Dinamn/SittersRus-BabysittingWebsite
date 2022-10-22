@@ -319,8 +319,8 @@ form .user-details .input-box{
 
 
         }
-        #Location{
-         text-decoration: underline;
+        .Location{
+       text-decoration: underline;
         }
 
         .coltext{color:#8d8d8d;}
@@ -347,6 +347,7 @@ form .user-details .input-box{
     align-items: center;
 	transition: all 0.3s ease;
 }
+.textcolor{color:#8d8d8d;}
 
 
 
