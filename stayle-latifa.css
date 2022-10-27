@@ -83,8 +83,16 @@
     height: 140px;
     margin: 18px;
     border-radius: 45px ;
-
-
+}
+   .card2-cb{
+    color: #515151;
+    background-color: #ECB78B;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100vh;
+    height: 160px;
+    margin: 18px;
+    border-radius: 45px ;
 }
 
 .item2 { grid-area: pic; }
