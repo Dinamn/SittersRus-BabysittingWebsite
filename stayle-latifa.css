@@ -488,12 +488,12 @@ form .user-details2 .input-box2{
 .buttonS{
     background-color:#A5B2A1 ;
 	outline: none;
-    padding: 20px 50px;
+    padding: 5px 30px;
 	display: inline-block;
     cursor:pointer;
     font-size: 20px;
 	font-weight: bolder;
-	margin-top: 25px;
+	margin-top: 10px;
 	margin-left: 300px;
     text-decoration:none ;
     color:#515151;
@@ -507,6 +507,8 @@ form .user-details2 .input-box2{
     justify-items:  center;
     align-items: center;
 }
+.layutbott{right: 30px;}
+.layutbott1{right: -10px;}
 
 .input_field{
 	margin-bottom: 15px;
