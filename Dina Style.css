@@ -432,8 +432,13 @@ color: #515151;
 
             margin: 4%;
             
+            
+
+
 
         }
+
+      
 
         #infobs1{
 
@@ -445,6 +450,10 @@ color: #515151;
             
             
 
+        }
+
+        #underlinecontact{
+            text-decoration: underline;
         }
 
         h6{
@@ -616,7 +625,7 @@ color: #515151;
             
           
         }
-     
+       
      
 
 
