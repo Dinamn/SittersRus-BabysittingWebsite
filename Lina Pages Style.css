@@ -166,7 +166,7 @@
  } 
 
 /*[Lina.2]Login Page*/
-.loginform{
+.container0{
 	position: absolute;
 	display: grid;
 	text-align: center;
@@ -175,7 +175,7 @@
     align-items: center;
 	background-color: #ECB78B;
     border-radius: 45px;
-	height:  80vh;
+	height:  90vh;
     width: 90vh;
 	left: 380px;
     top: 350px;
@@ -183,23 +183,29 @@
 	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.loginform h1{
+.container0 h1{
 	font-weight: bolder;
 	font-size: 50pt;
 	padding-top: 50px;
 	font-family: fantasy;
 	color: #515151;
 }
-.loginform .user-details0{
+
+.container0 .user-details0{
 	display: inline;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 30px 0px 12px 35px;
 }
 
-.loginform .user-details0 .input-box0{
+.container0 .user-details0 .input-box0{
 	margin-top: 15px;
-	width: calc(100% / 2 - 20px);
+	/*width: calc(100% / 2 - 20px);*/
+	width: 100%;
+}
+
+.redStars{
+	color: rgb(245, 72, 72);
 }
 
 .user-details0 .input-box0 .details0{
@@ -208,8 +214,33 @@
 	margin-bottom: 1px;
 	color: #515151;
 	font-size: 20px;
-	margin-right: 70px;
+	width: 30%;
+	/*margin-right: 100px;*/
 }
+.user-details0 .input-box0 .emailError{
+	margin-top: 6px;
+	color: rgb(245, 72, 72);
+	width: 50%;
+	background-color: #ECB78B;
+	border: 1px solid #ECB78B;
+    border-radius: 20px;
+	width: 180px;
+	padding: 3px 1px;
+	display: none;
+}
+
+.user-details0 .input-box0 .passError{
+	margin-top: 6px;
+	color: rgb(245, 72, 72);
+	width: 60%;
+	background-color: #ECB78B;
+	border: 1px solid #ECB78B;
+    border-radius: 20px;
+	width: 210px;
+	padding: 3px 1px;
+	display: none;
+}
+
 
 .user-details0 .input-box0 input{
 	background-color:#dbdcd8 ;
@@ -253,9 +284,15 @@
     font-family: fantasy;
 }
 
+.linegreen{
+	text-decoration-line: underline;
+}
+
 .linegreen:hover{
 	color: #A5B2A1;
+	text-decoration-line: underline;
 }
+
 
 /*[Lina.3]Are You S or P Page*/
 .SignUPform{

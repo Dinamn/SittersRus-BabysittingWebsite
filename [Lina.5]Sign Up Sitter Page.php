@@ -135,5 +135,73 @@
 
 		</footer><!--End of footer-->
 
+        <?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (!( $database = mysqli_connect( "localhost", "root", "" )))
+die( "<p>Could not connect to database</p>" );
+
+if (!mysqli_select_db( $database, "webpro" ))
+die( "<p>Could not open URL database</p>" );
+
+$email=$_POST["email"];  
+$passwor=$_POST["psw"];  
+$phoneNo=$_POST["phn"];
+$gender=$_POST["Gender"];
+$fname=$_POST["fn"];  
+$lname=$_POST['ln'];  
+$filename = $_FILES['uploadfile']['name'];
+$tempname = $_FILES['uploadfile']['tmp_name'];    
+
+if($filename==null){
+  $filename='images.png';
+}
+
+$imageFileType = strtolower(pathinfo($filename,PATHINFO_EXTENSION));
+
+
+
+if(!preg_match('/^[0-9]{10}+$/', $phoneNo)){
+  echo "<script>alert('phone number should be NUMBERS only!')</script>";  
+  exit();
+
+}
+
+if (preg_match('/[0-9]+/', $fname)||preg_match('/[0-9]+/', $lname)) {
+  echo "<script>alert('name should not have a number!')</script>";  
+  exit();
+}
+
+if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg") {
+  echo "<script>alert('Sorry, only JPG, JPEG & PNG files are allowed!')</script>";
+exit();
+}
+move_uploaded_file($tempname, 'profile_img/'.$filename);
+
+$query="select email from petowner WHERE email='$email'";  
+$query2="select email from veterinary WHERE email='$email'"; 
+$run=mysqli_query($database, $query); 
+$run2=mysqli_query($database, $query2);  
+
+$queryinsert="INSERT INTO petowner (email, password, profilePhoto,phoneNumber,gender,Fname,Lname) VALUES ('".$email."','".$passwor."','".$filename."','".$phoneNo."','".$gender."','".$fname."','".$lname."');";
+if( ( $row=mysqli_fetch_row($run)==null ) && ( $row=mysqli_fetch_row($run2)==null)) {
+  $_SESSION['email']=$email;
+  mysqli_query($database,$queryinsert);  
+    header("location: welcom.php");
+  
+}
+
+else  
+  echo "<script>alert('This email is used before!')</script>";  
+
+
+  
+  }
+
+
+
+
+?>
+
         </body>
 </html>
